@@ -1,0 +1,207 @@
+[
+  {
+    "productId": "1",
+    "name": "Cocamidopropyl betaine",
+    "supplier": "BASF",
+    "thumbnail": "https://placehold.co/600x400/?text=Cocamidopropyl betaine",
+    "category": "Surfactant",
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "125g",
+        "price": "10"
+      },
+      {
+        "variant_id": "2",
+        "weight": "1KG",
+        "price": "30"
+      },
+      {
+        "variant_id": "3",
+        "weight": "50KG",
+        "price": "100"
+      }
+    ]
+  },
+  {
+    "productId": "2",
+    "name": "Glyceryl Stearate",
+    "supplier": "Evonik",
+    "thumbnail": "https://placehold.co/600x400?text=Glyceryl Stearate",
+    "category": "Emulsifier",
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "100g",
+        "price": "15"
+      },
+      {
+        "variant_id": "2",
+        "weight": "1KG",
+        "price": "50"
+      },
+      {
+        "variant_id": "3",
+        "weight": "25KG",
+        "price": "200"
+      }
+    ]
+  },
+  {
+    "productId": "3",
+    "name": "Hyaluronic Acid",
+    "supplier": "Ashland",
+    "thumbnail": "https://placehold.co/600x400?text=Hyaluronic Acid",
+    "category": "Humectant",
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "50g",
+        "price": "25"
+      },
+      {
+        "variant_id": "2",
+        "weight": "500g",
+        "price": "150"
+      },
+      {
+        "variant_id": "3",
+        "weight": "10KG",
+        "price": "1000"
+      }
+    ]
+  },
+  {
+    "productId": "4",
+    "name": "Niacinamide",
+    "supplier": "DSM",
+    "thumbnail": "https://placehold.co/600x400?text=Niacinamide",
+    "category": "Vitamin",
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "100g",
+        "price": "20"
+      },
+      {
+        "variant_id": "2",
+        "weight": "1KG",
+        "price": "150"
+      }
+    ]
+  },
+  {
+    "productId": "5",
+    "name": "Salicylic Acid",
+    "supplier": "Merck",
+    "thumbnail": "https://placehold.co/600x400?text=Salicylic Acid",
+    "category": "Exfoliant",
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "50g",
+        "price": "10"
+      },
+      {
+        "variant_id": "2",
+        "weight": "250g",
+        "price": "40"
+      }
+    ]
+  },
+  {
+    "productId": "6",
+    "name": "Allantoin",
+    "supplier": "Clariant",
+    "thumbnail": "https://placehold.co/600x400?text=Allantoin",
+    "category": "Soothing Agent",
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "100g",
+        "price": "12"
+      },
+      {
+        "variant_id": "2",
+        "weight": "500g",
+        "price": "45"
+      }
+    ]
+  },
+  {
+    "productId": "7",
+    "name": "Panthenol",
+    "supplier": "Croda",
+    "thumbnail": "https://placehold.co/600x400?text=Panthenol",
+    "category": "Moisturizer",
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "250g",
+        "price": "20"
+      },
+      {
+        "variant_id": "2",
+        "weight": "1KG",
+        "price": "75"
+      }
+    ]
+  },
+  {
+    "productId": "8",
+    "name": "Shea Butter",
+    "supplier": "AAK",
+    "thumbnail": "https://placehold.co/600x400?text=Shea Butter",
+    "category": "Emollient",
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "500g",
+        "price": "30"
+      },
+      {
+        "variant_id": "2",
+        "weight": "1KG",
+        "price": "50"
+      }
+    ]
+  },
+  {
+    "productId": "9",
+    "name": "Hyaluronic Acid",
+    "supplier": "Contipro",
+    "thumbnail": "https://placehold.co/600x400?text=Hyaluronic Acid",
+    "category": "Humectant",
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "50g",
+        "price": "50"
+      },
+      {
+        "variant_id": "2",
+        "weight": "250g",
+        "price": "180"
+      }
+    ]
+  },
+  {
+    "productId": "10",
+    "name": "Ceramide NP",
+    "supplier": "Evonik",
+    "thumbnail": "https://placehold.co/600x400?text=Ceramide NP",
+    "category": "Lipid",
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "100g",
+        "price": "100"
+      },
+      {
+        "variant_id": "2",
+        "weight": "500g",
+        "price": "400"
+      }
+    ]
+  }
+]

@@ -1,0 +1,625 @@
+[
+  {
+    "productId": "1",
+    "name": "Cocamidopropyl betaine",
+    "supplier": "BASF",
+    "tradename": "DEHYTON K/JIS, Betain F 50, Euroquat PK37",
+    "description": "Surfactant that comes from coconut oil, and it is a common ingredient in many personal care products...",
+    "spec_sheets_url": "https://example.com/spec/cocamidopropyl-betaine.pdf",
+    "thumbnail": "https://placehold.co/600x400",
+    "category": "Surfactant",
+    "images": [
+      "https://placehold.co/400x400?text=photo1",
+      "https://placehold.co/400x400?text=photo2",
+      "https://placehold.co/400x400?text=photo3"
+    ],
+    "product_specifications": {
+      "solubility": "Oil/Organic solvent",
+      "best_ph": "5",
+      "melting_point": "45°C",
+      "note": "Mild Surfactant"
+    },
+    "regulations": {
+      "defaultCountry": "US",
+      "countries": {
+        "US": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "0.05%",
+            "rinse_off_percent": "0.05%",
+            "leave_on_instructions": "Avoid using eye area",
+            "rinse_off_instructions": ""
+          },
+          {
+            "body_part": "Body",
+            "leave_on_percent": "0.04%",
+            "rinse_off_percent": "0.03%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": "Avoid using eye area"
+          }
+        ],
+        "EU": [
+          {
+            "body_part": "Body",
+            "leave_on_percent": "0.04%",
+            "rinse_off_percent": "0.03%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": "Avoid using eye area"
+          },
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "0.05%",
+            "rinse_off_percent": "0.05%",
+            "leave_on_instructions": "Avoid using eye area",
+            "rinse_off_instructions": ""
+          },
+          {
+            "body_part": "Hair",
+            "leave_on_percent": "0.05%",
+            "rinse_off_percent": "0.05%",
+            "leave_on_instructions": "Avoid using eye area",
+            "rinse_off_instructions": ""
+          },
+          {
+            "body_part": "Intimate",
+            "leave_on_percent": "0.05%",
+            "rinse_off_percent": "0.05%",
+            "leave_on_instructions": "Avoid using eye area",
+            "rinse_off_instructions": ""
+          }
+        ]
+      }
+    },
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "125g",
+        "price": "10"
+      },
+      {
+        "variant_id": "2",
+        "weight": "1KG",
+        "price": "30"
+      },
+      {
+        "variant_id": "3",
+        "weight": "50KG",
+        "price": "100"
+      }
+    ]
+  },
+  {
+    "productId": "2",
+    "name": "Glyceryl Stearate",
+    "supplier": "Evonik",
+    "tradename": "Tego® Care",
+    "description": "An emulsifying agent derived from glycerin and stearic acid, often used in lotions and creams to help stabilize emulsions.",
+    "spec_sheets_url": "https://example.com/spec/glyceryl-stearate.pdf",
+    "thumbnail": "https://placehold.co/600x400",
+    "category": "Emulsifier",
+    "images": [
+      "https://placehold.co/400x400?text=photo1",
+      "https://placehold.co/400x400?text=photo2"
+    ],
+    "product_specifications": {
+      "solubility": "Water-insoluble",
+      "best_ph": "4-7",
+      "melting_point": "60°C",
+      "note": "Non-ionic emulsifier"
+    },
+    "regulations": {
+      "defaultCountry": "EU",
+      "countries": {
+        "US": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "2%",
+            "rinse_off_percent": "5%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          },
+          {
+            "body_part": "Body",
+            "leave_on_percent": "2%",
+            "rinse_off_percent": "5%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ],
+        "EU": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "1.5%",
+            "rinse_off_percent": "4%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          },
+          {
+            "body_part": "Body",
+            "leave_on_percent": "2%",
+            "rinse_off_percent": "5%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ]
+      }
+    },
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "100g",
+        "price": "15"
+      },
+      {
+        "variant_id": "2",
+        "weight": "1KG",
+        "price": "50"
+      },
+      {
+        "variant_id": "3",
+        "weight": "25KG",
+        "price": "200"
+      }
+    ]
+  },
+  {
+    "productId": "3",
+    "name": "Hyaluronic Acid",
+    "supplier": "Ashland",
+    "tradename": "AquaMax™ HA",
+    "description": "A natural polysaccharide with moisture-binding properties, used to provide deep hydration in skincare products.",
+    "spec_sheets_url": "https://example.com/spec/hyaluronic-acid.pdf",
+    "thumbnail": "https://placehold.co/600x400",
+    "category": "Humectant",
+    "images": [
+      "https://placehold.co/400x400?text=photo1",
+      "https://placehold.co/400x400?text=photo2",
+      "https://placehold.co/400x400?text=photo3"
+    ],
+    "product_specifications": {
+      "solubility": "Water-soluble",
+      "best_ph": "5.5",
+      "melting_point": "N/A",
+      "note": "Excellent moisture retention"
+    },
+    "regulations": {
+      "defaultCountry": "US",
+      "countries": {
+        "US": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "0.5%",
+            "rinse_off_percent": "1%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          },
+          {
+            "body_part": "Body",
+            "leave_on_percent": "0.5%",
+            "rinse_off_percent": "1%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ],
+        "EU": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "0.4%",
+            "rinse_off_percent": "0.8%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          },
+          {
+            "body_part": "Body",
+            "leave_on_percent": "0.4%",
+            "rinse_off_percent": "0.8%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ]
+      }
+    },
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "50g",
+        "price": "25"
+      },
+      {
+        "variant_id": "2",
+        "weight": "500g",
+        "price": "150"
+      },
+      {
+        "variant_id": "3",
+        "weight": "10KG",
+        "price": "1000"
+      }
+    ]
+  },
+  {
+    "productId": "4",
+    "name": "Niacinamide",
+    "supplier": "DSM",
+    "tradename": "Vitamin B3",
+    "description": "A form of Vitamin B3, known for its ability to improve the appearance of enlarged pores, uneven skin tone, and dullness.",
+    "spec_sheets_url": "https://example.com/spec/niacinamide.pdf",
+    "thumbnail": "https://placehold.co/600x400",
+    "category": "Vitamin",
+    "images": [
+      "https://placehold.co/400x400?text=photo1",
+      "https://placehold.co/400x400?text=photo2"
+    ],
+    "product_specifications": {
+      "solubility": "Water-soluble",
+      "best_ph": "5-7",
+      "melting_point": "130°C",
+      "note": "Supports skin barrier function"
+    },
+    "regulations": {
+      "defaultCountry": "US",
+      "countries": {
+        "US": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "5%",
+            "rinse_off_percent": "10%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ],
+        "EU": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "5%",
+            "rinse_off_percent": "10%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ]
+      }
+    },
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "100g",
+        "price": "20"
+      },
+      {
+        "variant_id": "2",
+        "weight": "1KG",
+        "price": "150"
+      }
+    ]
+  },
+  {
+    "productId": "5",
+    "name": "Salicylic Acid",
+    "supplier": "Merck",
+    "tradename": "Salex™",
+    "description": "A beta hydroxy acid (BHA) that helps exfoliate the skin and is commonly used in acne treatments.",
+    "spec_sheets_url": "https://example.com/spec/salicylic-acid.pdf",
+    "thumbnail": "https://placehold.co/600x400",
+    "category": "Exfoliant",
+    "images": [
+      "https://placehold.co/400x400?text=photo1",
+      "https://placehold.co/400x400?text=photo2"
+    ],
+    "product_specifications": {
+      "solubility": "Alcohol-soluble",
+      "best_ph": "3-4",
+      "melting_point": "159°C",
+      "note": "Effective acne treatment"
+    },
+    "regulations": {
+      "defaultCountry": "EU",
+      "countries": {
+        "US": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "2%",
+            "rinse_off_percent": "5%",
+            "leave_on_instructions": "Avoid excessive use on sensitive skin",
+            "rinse_off_instructions": ""
+          }
+        ],
+        "EU": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "1.5%",
+            "rinse_off_percent": "3%",
+            "leave_on_instructions": "Avoid contact with eyes",
+            "rinse_off_instructions": ""
+          }
+        ]
+      }
+    },
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "50g",
+        "price": "10"
+      },
+      {
+        "variant_id": "2",
+        "weight": "250g",
+        "price": "40"
+      }
+    ]
+  },
+  {
+    "productId": "6",
+    "name": "Allantoin",
+    "supplier": "Clariant",
+    "tradename": "Allosperse™",
+    "description": "A soothing agent that helps to protect the skin and promotes wound healing.",
+    "spec_sheets_url": "https://example.com/spec/allantoin.pdf",
+    "thumbnail": "https://placehold.co/600x400",
+    "category": "Soothing Agent",
+    "images": [
+      "https://placehold.co/400x400?text=photo1",
+      "https://placehold.co/400x400?text=photo2"
+    ],
+    "product_specifications": {
+      "solubility": "Water-soluble",
+      "best_ph": "4.5-6",
+      "melting_point": "230°C",
+      "note": "Promotes healing"
+    },
+    "regulations": {
+      "defaultCountry": "US",
+      "countries": {
+        "US": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "0.5%",
+            "rinse_off_percent": "1%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ],
+        "EU": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "0.5%",
+            "rinse_off_percent": "1%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ]
+      }
+    },
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "100g",
+        "price": "12"
+      },
+      {
+        "variant_id": "2",
+        "weight": "500g",
+        "price": "45"
+      }
+    ]
+  },
+  {
+    "productId": "7",
+    "name": "Panthenol",
+    "supplier": "Croda",
+    "tradename": "Provitamin B5",
+    "description": "A form of Vitamin B5, commonly used in skincare and haircare products for its moisturizing and healing properties.",
+    "spec_sheets_url": "https://example.com/spec/panthenol.pdf",
+    "thumbnail": "https://placehold.co/600x400",
+    "category": "Moisturizer",
+    "images": [
+      "https://placehold.co/400x400?text=photo1",
+      "https://placehold.co/400x400?text=photo2"
+    ],
+    "product_specifications": {
+      "solubility": "Water-soluble",
+      "best_ph": "5-7",
+      "melting_point": "64°C",
+      "note": "Deeply hydrating"
+    },
+    "regulations": {
+      "defaultCountry": "US",
+      "countries": {
+        "US": [
+          {
+            "body_part": "Hair",
+            "leave_on_percent": "1%",
+            "rinse_off_percent": "2%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ],
+        "EU": [
+          {
+            "body_part": "Hair",
+            "leave_on_percent": "1%",
+            "rinse_off_percent": "2%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ]
+      }
+    },
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "250g",
+        "price": "20"
+      },
+      {
+        "variant_id": "2",
+        "weight": "1KG",
+        "price": "75"
+      }
+    ]
+  },
+  {
+    "productId": "8",
+    "name": "Shea Butter",
+    "supplier": "AAK",
+    "tradename": "Lipex™ Shea",
+    "description": "A natural fat extracted from the nut of the African shea tree, widely used for its moisturizing and emollient properties.",
+    "spec_sheets_url": "https://example.com/spec/shea-butter.pdf",
+    "thumbnail": "https://placehold.co/600x400",
+    "category": "Emollient",
+    "images": [
+      "https://placehold.co/400x400?text=photo1",
+      "https://placehold.co/400x400?text=photo2"
+    ],
+    "product_specifications": {
+      "solubility": "Oil-soluble",
+      "best_ph": "N/A",
+      "melting_point": "35-40°C",
+      "note": "Rich in fatty acids"
+    },
+    "regulations": {
+      "defaultCountry": "EU",
+      "countries": {
+        "US": [
+          {
+            "body_part": "Body",
+            "leave_on_percent": "100%",
+            "rinse_off_percent": "100%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ],
+        "EU": [
+          {
+            "body_part": "Body",
+            "leave_on_percent": "100%",
+            "rinse_off_percent": "100%",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ]
+      }
+    },
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "500g",
+        "price": "30"
+      },
+      {
+        "variant_id": "2",
+        "weight": "1KG",
+        "price": "50"
+      }
+    ]
+  },
+  {
+    "productId": "9",
+    "name": "Hyaluronic Acid",
+    "supplier": "Contipro",
+    "tradename": "HyaCare® 50",
+    "description": "A powerful humectant that helps the skin retain moisture, resulting in plumper and smoother skin.",
+    "spec_sheets_url": "https://example.com/spec/hyaluronic-acid.pdf",
+    "thumbnail": "https://placehold.co/600x400",
+    "category": "Humectant",
+    "images": [
+      "https://placehold.co/400x400?text=photo1",
+      "https://placehold.co/400x400?text=photo2"
+    ],
+    "product_specifications": {
+      "solubility": "Water-soluble",
+      "best_ph": "4-5",
+      "melting_point": "N/A",
+      "note": "Excellent moisture retention"
+    },
+    "regulations": {
+      "defaultCountry": "US",
+      "countries": {
+        "US": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "1%",
+            "rinse_off_percent": "1%",
+            "leave_on_instructions": "Apply on damp skin",
+            "rinse_off_instructions": ""
+          }
+        ],
+        "EU": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "1%",
+            "rinse_off_percent": "1%",
+            "leave_on_instructions": "Apply on damp skin",
+            "rinse_off_instructions": ""
+          }
+        ]
+      }
+    },
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "50g",
+        "price": "50"
+      },
+      {
+        "variant_id": "2",
+        "weight": "250g",
+        "price": "180"
+      }
+    ]
+  },
+  {
+    "productId": "10",
+    "name": "Ceramide NP",
+    "supplier": "Evonik",
+    "tradename": "Skinmimics® Ceramide NP",
+    "description": "A skin-identical lipid that helps restore the skin's barrier and retain moisture.",
+    "spec_sheets_url": "https://example.com/spec/ceramide-np.pdf",
+    "thumbnail": "https://placehold.co/600x400",
+    "category": "Lipid",
+    "images": [
+      "https://placehold.co/400x400?text=photo1",
+      "https://placehold.co/400x400?text=photo2"
+    ],
+    "product_specifications": {
+      "solubility": "Oil-soluble",
+      "best_ph": "4.5-6",
+      "melting_point": "N/A",
+      "note": "Restores skin barrier"
+    },
+    "regulations": {
+      "defaultCountry": "EU",
+      "countries": {
+        "US": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "2%",
+            "rinse_off_percent": "N/A",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ],
+        "EU": [
+          {
+            "body_part": "Facial",
+            "leave_on_percent": "2%",
+            "rinse_off_percent": "N/A",
+            "leave_on_instructions": "",
+            "rinse_off_instructions": ""
+          }
+        ]
+      }
+    },
+    "variant": [
+      {
+        "variant_id": "1",
+        "weight": "100g",
+        "price": "100"
+      },
+      {
+        "variant_id": "2",
+        "weight": "500g",
+        "price": "400"
+      }
+    ]
+  }
+]
