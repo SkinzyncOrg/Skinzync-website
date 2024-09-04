@@ -67,13 +67,13 @@ export default function IntroduceSection() {
         </div> */}
         <div className="flex justify-around my-10">
           <div className="hidden md:flex">
-            <IpadMockup image="https://placehold.co/1024x768" />
+            <IpadMockup image="https://res.cloudinary.com/dtomkzlym/image/upload/v1725477408/demo/nfpgvzzw8ikxitwm1qdj.png" />
           </div>
           <div className="md:absolute md:z-10 w-full h-full md:mt-10">
-            <MacMockup image="https://placehold.co/1500x842" />
+            <MacMockup image="https://res.cloudinary.com/dtomkzlym/image/upload/v1725477408/demo/fomv6pxy3bdhf6ju8jlo.png" />
           </div>
           <div className="hidden md:flex">
-            <IpadMockup image="https://placehold.co/1024x768" />
+            <IpadMockup image="https://res.cloudinary.com/dtomkzlym/image/upload/v1725477408/demo/lxwqhcpojqxv5sziuzfz.png" />
           </div>
         </div>
 

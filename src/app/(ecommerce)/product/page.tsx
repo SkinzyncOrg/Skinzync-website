@@ -6,33 +6,55 @@ import globalApi from "@/utils/globalApi";
 import { IoCartOutline } from "react-icons/io5";
 import { BsChat } from "react-icons/bs";
 import { quantum } from "ldrs";
-import productData from "@/constants/mockProducts.json";
 import FilterDrawer from "@/components//ProductSection/FilterDrawer";
+import mockData from "@/constants/mockProducts.json";
 
 quantum.register();
 
-interface ProductData {
-  productId: string;
+interface ProductListData {
+  product_id: number;
+  company_id: number;
+  function_id: number;
   name: string;
-  supplier: string;
   thumbnail: string;
-  category: string;
-  variant: any[];
+  tradename: string;
+  description: string;
+  spec_sheets_url: string;
+  created_at: string;
+  company: {
+    company_id: number;
+    name: string;
+    address: string;
+    company_type: string;
+    created_at: string;
+  };
+  function: {
+    function_id: number;
+    name: string;
+  };
+  product_variants: {
+    variant_id: number;
+    product_id: number;
+    weight: string;
+    price: number;
+  }[];
 }
+
 
 export default function ProductPage() {
   const router = useRouter();
-  const [products, setProducts] = useState<any>(null);
+  const [products, setProducts] = useState<ProductListData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
-    // TODO: Fetch products from the server
     async function fetchProducts() {
       try {
-        // const res = globalApi.getProducts();
-        // console.log(res);
-        setProducts(productData);
+        // const res = await globalApi.getProducts();
+        // setProducts(res);
+        // NOTE: mock data
+        setProducts(mockData);
       } catch (err: any) {
+        setError(err.message);
         console.error(err);
       } finally {
         setLoading(false);
@@ -42,7 +64,7 @@ export default function ProductPage() {
     fetchProducts();
   }, []);
 
-  const handleFiltersApplied = (filteredProducts: ProductData[]) => {
+  const handleFiltersApplied = (filteredProducts: ProductListData[]) => {
     setProducts(filteredProducts);
   };
 
@@ -52,8 +74,20 @@ export default function ProductPage() {
         <l-quantum size="120" speed="1.75" color="black"></l-quantum>
       </div>
     );
-  if (error) return <div>Error: {error}</div>;
-  if (!products) return <div>Product not found</div>;
+  if (error)
+    return (
+      <div className="flex w-full h-full justify-center items-center">
+        Error: {error}
+      </div>
+    );
+  if (!Array.isArray(products))
+    return (
+      <div className="flex w-full min-h-screen justify-center items-center gap-4">
+        No products found, please try again later. If the problem persists,
+        please contact support.
+      </div>
+    );
+
   return (
     <div className="mx-auto max-w-2xl px-4 py-8 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
       <h2 className="text-2xl md:text-4xl font-bold tracking-tight text-gray-900">
@@ -78,39 +112,55 @@ export default function ProductPage() {
         </label>
         <FilterDrawer onFiltersApplied={handleFiltersApplied} />
       </div>
-      <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-4 xl:gap-x-8">
-      {products.map((product: any) => (
-          <div key={product.productId} className="group relative">
-            <div className="card bg-base-100 border h-full shadow">
+
+      {products.length === 0 ? (
+        <div className="flex w-full h-96 justify-center items-center">
+          No products found lenght = 0
+        </div>
+      ) : (
+        <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-4 xl:gap-x-8">
+          {products.map((product) => (
+            <div key={product.product_id} className="group relative">
+              <div className="card bg-base-100 border h-full shadow">
                 <figure className="w-full p-2 rounded-lg overflow-hidden flex items-center justify-center">
                   <img
                     alt={product.name}
                     src={product.thumbnail}
-                    className="w-full h-full object-cover cursor-pointer rounded-lg"
-                    onClick={() => router.push(`/product/${product.productId}`)}
+                    className="w-40 h-40 object-cover cursor-pointer rounded-lg"
+                    onClick={() =>
+                      router.push(`/product/${product.product_id}`)
+                    }
                   />
                 </figure>
-              <div className="card-body p-5">
-                <h2 className="card-title text-gray-700 font-bold text-sm md:text-xl flex items-center justify-between cursor-pointer" onClick={() => router.push(`/product/${product.productId}`)}>
+                <div className="card-body p-5">
+                  <h2
+                    className="card-title text-gray-700 font-bold text-sm md:text-xl flex items-center justify-between cursor-pointer"
+                    onClick={() =>
+                      router.push(`/product/${product.product_id}`)
+                    }
+                  >
                     {product.name}
-                </h2>
-                <p className="text-sm text-gray-500 ">{product.supplier}</p>
-                <div className="card-actions flex justify-between items-center">
-                  <button className="btn btn-circle btn-sm hidden xl:flex">
-                    <BsChat className="w-4 h-4" />
-                  </button>
-                  <button className="btn btn-circle btn-sm hidden xl:flex">
-                    <IoCartOutline className="w-4 h-4" />
-                  </button>
-                  <p className="text-xl font-bold text-gray-900 text-right">
-                    {product.variant[0].price} $
+                  </h2>
+                  <p className="text-sm text-gray-500 ">
+                    {product.company.name}
                   </p>
+                  <div className="card-actions flex justify-between items-center">
+                    <button className="btn btn-circle btn-sm hidden xl:flex">
+                      <BsChat className="w-4 h-4" />
+                    </button>
+                    <button className="btn btn-circle btn-sm hidden xl:flex">
+                      <IoCartOutline className="w-4 h-4" />
+                    </button>
+                    <p className="text-xl font-bold text-gray-900 text-right">
+                      {product.product_variants[0].price} $
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

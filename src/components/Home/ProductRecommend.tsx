@@ -21,23 +21,24 @@ export default function ProductRecommend() {
           </div>
         </div>
         <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-        <ProductItem
-            name="Essential Oils"
-            functions="Fragrance & Therapeutic"
-            description="Pure, natural essential oils for fragrance."
-            image="https://placehold.co/200x200"
-          />
-          <ProductItem
-            name="Active Ingredients"
-            functions="Cutting-edge Skincare"
-            description="Cutting-edge active ingredients for effective skincare formulations."
-            image="https://placehold.co/200x200"
-          />
-          <ProductItem
-            name="Natural Extracts"
-            functions="Botanical Extracts"
-            description="Botanical extracts for natural skincare formulations."
-            image="https://placehold.co/200x200"/>
+            <ProductItem
+              name="Cocamidopropyl betaine"
+              functions="Cleansers"
+              description="A mild surfactant from coconut oil, used as a foam booster."
+              image="https://res.cloudinary.com/dtomkzlym/image/upload/v1725221684/ddp6ebprqv96fqddcnzg.png"
+            />
+            <ProductItem
+              name="Glyceryl Glucoside"
+              functions="Moisturizers"
+              description="A moisturizer that enhances skin hydration."
+              image="https://res.cloudinary.com/dtomkzlym/image/upload/v1725291687/dicvhim5jo7pgdajwzv8.jpg"
+            />
+            <ProductItem
+              name="Glycerin 99.5%"
+              functions="Humectants"
+              description="A humectant that helps maintain skin moisture."
+              image="https://res.cloudinary.com/dtomkzlym/image/upload/v1725470825/Glycerin_99.5_dnnop2.jpg"
+            />
         </div>
         <div className="flex justify-center">
           <button

@@ -1,4 +1,5 @@
-import { MdOutlineWorkspacePremium } from "react-icons/md";
+import { MdFactory } from "react-icons/md";
+import { IoPersonSharp, IoCall } from "react-icons/io5";
 
 interface PlanData {
   title: string;
@@ -19,9 +20,9 @@ const getSkinZyncPro = (): PlanData => {
     monthlyPrice: "$109 / month",
     yearlyPrice: "$1,299 / year",
     submitButtonLabel: "Buy Now",
-    features: ["1 month / 20 formulas", "Dinner"],
+    features: ["1 month / 20 formulas"],
     svgIcon: (
-      <MdOutlineWorkspacePremium />
+      <IoPersonSharp className="w-10 h-10" />
 
     ),
   };
@@ -35,9 +36,9 @@ const getSkinZyncPremium = (): PlanData => {
     monthlyPrice: "$269 / month",
     yearlyPrice: "$2,999 / year",
     submitButtonLabel: "Buy Now",
-    features: ["1 month / 100 formulas", "Snacks"],
+    features: ["1 month / 100 formulas"],
     svgIcon: (
-      <MdOutlineWorkspacePremium />
+      <MdFactory className="w-10 h-10" />
 
     ),
   };
@@ -51,9 +52,9 @@ const getSkinZyncSupply = (): PlanData => {
     monthlyPrice: "Custom Pricing",
     yearlyPrice: "Contact Sales",
     submitButtonLabel: "Contact Sales",
-    features: ["1 month / 100 formulas", "Consulting"],
+    features: ["1 month / 100 formulas"],
     svgIcon: (
-      <MdOutlineWorkspacePremium />
+      <IoCall className="w-10 h-10" />
 
     ),
   };

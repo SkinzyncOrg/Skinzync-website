@@ -10,18 +10,6 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
-// const images = [
-//   "https://swiperjs.com/demos/images/nature-1.jpg",
-//   "https://swiperjs.com/demos/images/nature-2.jpg",
-//   "https://swiperjs.com/demos/images/nature-3.jpg",
-//   "https://swiperjs.com/demos/images/nature-4.jpg",
-//   //  'https://swiperjs.com/demos/images/nature-5.jpg',
-//   // 'https://swiperjs.com/demos/images/nature-6.jpg',
-//   // 'https://swiperjs.com/demos/images/nature-7.jpg',
-//   // 'https://swiperjs.com/demos/images/nature-8.jpg',
-//   // 'https://swiperjs.com/demos/images/nature-9.jpg',
-//   // 'https://swiperjs.com/demos/images/nature-10.jpg',
-// ];
 
 export default function ImageCarousel({ images }: { images: string[] }) {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
@@ -58,15 +46,21 @@ export default function ImageCarousel({ images }: { images: string[] }) {
         onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
         className="relative"
       >
-        {images.map((img, index) => (
-          <SwiperSlide key={index}>
-            <img
-              src={img}
-              alt={`${index + 1}`}
-              className="block mx-auto rounded-xl md:max-w-sm"
-            />
-          </SwiperSlide>
-        ))}
+        {images.length === 0 ? (
+          <SwiperSlide>
+            <div className="flex justify-center ">
+              <div className="flex bg-gray-300 rounded-xl h-48 w-60 justify-center items-center">
+                No image for this product
+                </div>
+                </div>
+                </SwiperSlide>
+                ) : (
+                  images.map((img, index) => (
+                    <SwiperSlide key={index}>
+                      <img src={img} alt={`${index + 1}`} className=" h-full mx-auto rounded-xl object-cover" />
+                    </SwiperSlide>
+                  ))
+                )}
         <div className="swiper-button-next after:text-blue-500"></div>
         <div className="swiper-button-prev after:text-blue-500"></div>
       </Swiper>

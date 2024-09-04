@@ -1,33 +1,16 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { FaChevronLeft, FaChevronRight, FaCartShopping } from "react-icons/fa6";
 import ImageCarousel from "@/components/ProductSection/ImageCarousel";
-import { products } from "@/constants/sampleProducts";
 import Productdetail from "@/components/ProductSection/Productdetail";
-import productData from "@/constants/mockProductdetail.json";
+import mockData from "@/constants/mockProductdetail.json";
+import globalApi from "@/utils/globalApi";
+import ecocert from "../../../../../public/ecocert.svg";
+import { FaPlus, FaMinus } from "react-icons/fa6";
+import Image from "next/image";
 import { quantum } from "ldrs";
+import { ProductImageData, DetailedProductData } from "@/types/productDetail";
 quantum.register();
-
-interface ProductData {
-  productId: string;
-  name: string;
-  supplier: string;
-  tradename: string;
-  description: string;
-  spec_sheets_url: string;
-  thumbnail: string;
-  category: string;
-  image: string[];
-  product_specifications: {
-    solubility: string;
-    best_ph: string;
-    melting_point: string;
-    note: string;
-  };
-  regulations: any; // Update with the actual type
-  variant: any[]; // Update with the actual type
-}
 
 interface ProductDetailProps {
   params: {
@@ -37,30 +20,38 @@ interface ProductDetailProps {
 
 export default function ProductDetail({ params }: ProductDetailProps) {
   const { productId } = params;
-  const [product, setProduct] = useState<any>(null);
+  const [product, setProduct] = useState<DetailedProductData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [imageUrls, setImageUrls] = useState<string[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [selectedVariant, setSelectedVariant] = useState<any>(null);
-  const [selectedCountry, setSelectedCountry] = useState("US");
+  const [selectedCountry, setSelectedCountry] = useState<string>("");
 
   useEffect(() => {
-    //TODO: Fetch productId from the server
     async function fetchProduct() {
       try {
-        // const res = await axios.get(`/api/products/${productId}`);
-        // setProduct(res.data);
-        // setSelectedVariant(res.data.variant[0]);
-        const product = productData.find(
-          (item: any) => item.productId === productId
+        // const res = await globalApi.getProductById(productId);
+        // setProduct(res);
+        // setImageUrls(
+        //   res.product_images?.map((img: ProductImageData) => img.image_url) || []
+        // );
+        // setSelectedVariant(res.product_variants[0]);
+        // NOTE: mock data
+        const product = mockData.find(
+          (product) => product.product_id === parseInt(productId)
         );
-        if (product) {
-          setProduct(product);
-          setSelectedVariant(product.variant[0]);
-        } else {
-          setError("Product not found");
+        if (!product) throw new Error("Product not found");
+        setProduct(product);
+        setImageUrls(
+          product.product_images?.map((img: ProductImageData) => img.image_url) || []
+        );
+        setSelectedVariant(product.product_variants[0]);
+        if (product.regulations && product.regulations.length > 0) {
+          setSelectedCountry(product.regulations[0].country);
         }
-      } catch (err: any) {
-        setError(err.message);
+      } catch (error: any) {
+        console.error(error);
+        setError(error.message);
       } finally {
         setLoading(false);
       }
@@ -71,14 +62,24 @@ export default function ProductDetail({ params }: ProductDetailProps) {
   if (loading)
     return (
       <div className="flex w-full h-full justify-center items-center">
-        <l-quantum size="120" speed="1.75" color="black"></l-quantum>
+        <l-quantum size="100" speed="1.75" color="black"></l-quantum>
       </div>
     );
-  if (error) return <div>Error: {error}</div>;
-  if (!product) return <div>Product not found</div>;
+  if (error)
+    return (
+      <div className="flex w-full h-full justify-center items-center">
+        Error: {error}
+      </div>
+    );
+  if (!product)
+    return (
+      <div className="flex w-full h-full justify-center items-center">
+        Product not found
+      </div>
+    );
 
   const handleVariantChange = (variantId: string) => {
-    const selected = product.variant.find(
+    const selected = product.product_variants.find(
       (variant: any) => variant.variant_id === variantId
     );
     setSelectedVariant(selected);
@@ -99,7 +100,7 @@ export default function ProductDetail({ params }: ProductDetailProps) {
               <a href="product">Home</a>
             </li>
             <li>
-              <a>{product.category}</a>
+              <a>{product.function.name}</a>
             </li>
             <li>{product.name}</li>
           </ul>
@@ -108,14 +109,14 @@ export default function ProductDetail({ params }: ProductDetailProps) {
       <div className="flex flex-col md:flex-row bg-background mb-6">
         {/* Image Carousel */}
         <div className="w-full md:w-1/2 ">
-          <ImageCarousel images={product.images} />
+          <ImageCarousel images={imageUrls} />
         </div>
         {/* Product Details */}
         <div className="w-full mt-4 md:mt-0 md:pl-6 md:w-1/2">
           <div className="space-y-6">
             <div>
               <h1 className="text-3xl font-bold">{product.name}</h1>
-              <p className="text-gray-500">{product.supplier}</p>
+              <p className="text-gray-500">{product.company.name}</p>
             </div>
 
             <div className="flex items-center">
@@ -126,7 +127,7 @@ export default function ProductDetail({ params }: ProductDetailProps) {
 
             <div>
               <div className="flex space-x-2">
-                {product.variant.map((variant: any) => (
+                {product.product_variants.map((variant: any) => (
                   <button
                     key={variant.variant_id}
                     onClick={() => handleVariantChange(variant.variant_id)}
@@ -141,7 +142,28 @@ export default function ProductDetail({ params }: ProductDetailProps) {
                 ))}
               </div>
             </div>
-
+            <div className="flex items-center justify-center h-full">
+              <button
+                className="group rounded-l-xl px-4 py-3 border border-gray-200 flex items-center justify-center shadow-sm shadow-transparent transition-all duration-500 hover:bg-gray-50 hover:border-gray-300 hover:shadow-gray-300 focus-within:outline-gray-300"
+                // onClick={() => updateQuantity(item.id, item.quantity - 1)}
+              >
+                <FaMinus />
+              </button>
+              <input
+                type="text"
+                className="border-y border-gray-200 outline-none text-gray-900 font-semibold text-lg w-1/5 placeholder:text-gray-900 py-[6px] text-center bg-transparent"
+                // value={item.quantity}
+                // onChange={(e) =>
+                //   updateQuantity(item.id, parseInt(e.target.value) || 0)
+                // }
+              />
+              <button
+                className="group rounded-r-xl px-4 py-3 border border-gray-200 flex items-center justify-center shadow-sm shadow-transparent transition-all duration-500 hover:bg-gray-50 hover:border-gray-300 hover:shadow-gray-300 focus-within:outline-gray-300"
+                // onClick={() => updateQuantity(item.id, item.quantity + 1)}
+              >
+                <FaPlus />
+              </button>
+            </div>
             <button className="btn btn-accent btn-block mt-6 ">
               <FaCartShopping className="mr-2 w-5 h-5" />
               Add to cart
@@ -153,8 +175,11 @@ export default function ProductDetail({ params }: ProductDetailProps) {
               <p className="mt-2 text-sm text-muted-foreground">
                 {product.description}
               </p>
-              <div className="flex justify-between mt-4">
-                <h3 className="text-lg font-semibold">Certified :</h3>
+              <div className="flex justify-between mt-4 items-center">
+                <div className="flex flex-row items-center">
+                  <h3 className="text-lg font-semibold mr-4">Certified :</h3>
+                  <Image src={ecocert} alt="ecocert" width={50} height={50} />
+                </div>
                 <a className="link" href={product.spec_sheets_url}>
                   Download Sheet
                 </a>
@@ -164,13 +189,14 @@ export default function ProductDetail({ params }: ProductDetailProps) {
         </div>
       </div>
 
-      {/* Product Specifiaction */}
-      <Productdetail
-        specifications={product.product_specifications}
-        regulations={product.regulations}
-        selectedCountry={selectedCountry}
-        onCountryChange={setSelectedCountry}
-      />
+      {product && product.specifications && product.regulations && (
+        <Productdetail
+          specifications={product.specifications}
+          regulations={product.regulations}
+          selectedCountry={selectedCountry}
+          onCountryChange={setSelectedCountry}
+        />
+      )}
     </div>
   );
 }

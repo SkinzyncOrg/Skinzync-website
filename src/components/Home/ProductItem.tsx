@@ -9,8 +9,8 @@ interface ProductItemProps {
 
 export default function ProductItem({ name, functions, description,image }: ProductItemProps) {
   return (
-    <div>
-      <a href="#" className="group relative block bg-black">
+    <div className="h-full ">
+      <a href="#" className="group relative block bg-black h-full">
         <img
           alt=""
           src={image}

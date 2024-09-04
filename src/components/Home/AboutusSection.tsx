@@ -12,7 +12,7 @@ export default function AboutusSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">
           <div className="relative w-full h-auto">
             <div className="rounded-2xl p-2 h-full">
-              <h1 className="py-5 text-primary text-2xl font-bold">Skinzync</h1>
+              <h1 className="py-5 text-primary text-2xl font-bold text-center">Skinzync</h1>
               <h3 className="text-primary text-2xl font-bold xl:text-xl">
                 Your Partner in Cosmetic Innovation
               </h3>
@@ -27,7 +27,7 @@ export default function AboutusSection() {
           </div>
           <div className="relative w-full h-auto">
             <div className="rounded-2xl p-2 h-full">
-              <h1 className="py-5 text-primary text-2xl font-bold">
+              <h1 className="py-5 text-primary text-2xl font-bold text-center">
                 Our Mission
               </h1>
               <p className="text-sm font-normal text-black mb-8">

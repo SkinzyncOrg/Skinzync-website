@@ -1,13 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import HeroContent from "@/components/Home/HeroContent";
 import BlogSection from "@/components/Home/Trends/BlogSection";
 import ProductRecommend from "@/components/Home/ProductRecommend";
 import AIlanding from "@/components/Home/AIlanding";
 import AboutusSection from "@/components/Home/AboutusSection";
-import AboutusSection2 from "@/components/Home/AboutusSection2";
-import AboutusSection3 from "@/components/Home/AboutusSection3";
 import IntroduceSection from "@/components/Home/Introduce/IntroduceSection";
 import PricingPlan from "@/components/Home/PricingPlan";
 import { Blog } from "@/types/trendBlog";
@@ -43,7 +40,7 @@ export default function Home() {
         <p>Loading blogs...</p> // Optional loading state
       )}
       <PricingPlan />
-      <AboutusSection3 />
+      <AboutusSection />
     </div>
   );
 }

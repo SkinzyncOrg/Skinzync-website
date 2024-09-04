@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MacMockup({image}: {image: string}) {
   return (
-    <div className="w-full h-full">
+    <div className="">
       <div className="relative mx-auto border-black bg-gray-800 border-[8px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
         <div className="rounded-lg overflow-hidden h-[156px] md:h-[278px] bg-white">
           <img

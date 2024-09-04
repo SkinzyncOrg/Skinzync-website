@@ -1,31 +1,17 @@
-import React, { useState } from "react";
+"use client";
+import React, { useState, useEffect } from "react";
+import { ProductSpecificationData, RegulationData } from "@/types/productDetail";
 
 interface ProductDetailProps {
-  specifications: {
-    solubility: string;
-    best_ph: string;
-    melting_point: string;
-    note: string;
-  };
-  regulations: {
-    defaultCountry: string;
-    countries: {
-      [key: string]: {
-        body_part: string;
-        leave_on_percent: string;
-        rinse_off_percent: string;
-        leave_on_instructions: string;
-        rinse_off_instructions: string;
-      }[];
-    };
-  };
+  specifications: ProductSpecificationData[];
+  regulations: RegulationData[];
   selectedCountry: string;
   onCountryChange: (country: string) => void;
 }
 
 const tabContentTitles = ["Specifications", "Cosmetic Regulations"];
 
-export default function Productdetail({
+export default function ProductDetail({
   specifications,
   regulations,
   selectedCountry,
@@ -33,9 +19,12 @@ export default function Productdetail({
 }: ProductDetailProps) {
   const [activeTab, setActiveTab] = useState(0);
 
-  const countryOptions = Object.keys(regulations.countries);
+  // Extract unique country names from the regulations
+  const countryOptions = regulations.map((reg) => reg.country);
 
-  const currentRegulations = regulations.countries[selectedCountry];
+  const currentRegulations =
+    regulations.find((reg) => reg.country === selectedCountry)?.body_parts ??
+    [];
 
   return (
     <div className="container mx-auto py-4">
@@ -61,26 +50,26 @@ export default function Productdetail({
           <table className="w-full">
             <thead>
               <tr className="text-left">
-                <th className="pb-2">Property</th>
-                <th className="pb-2">Value</th>
+                <th className="pb-2 underline">Property</th>
+                <th className="pb-2 underline">Value</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td className="py-1">Solubility</td>
-                <td className="py-1">{specifications.solubility}</td>
+                <td className="py-1">{specifications[0].solubility}</td>
               </tr>
               <tr>
                 <td className="py-1">Best pH</td>
-                <td className="py-1">{specifications.best_ph}</td>
+                <td className="py-1">{specifications[0].best_ph}</td>
               </tr>
               <tr>
                 <td className="py-1">Melting Point</td>
-                <td className="py-1">{specifications.melting_point}°C</td>
+                <td className="py-1">{specifications[0].melting_point}°C</td>
               </tr>
               <tr>
                 <td className="py-1">Note</td>
-                <td className="py-1">{specifications.note}</td>
+                <td className="py-1">{specifications[0].note}</td>
               </tr>
             </tbody>
           </table>

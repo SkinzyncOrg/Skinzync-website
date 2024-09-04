@@ -24,8 +24,7 @@ export default function PricingPlan() {
   };
 
   return (
-    <section className="w-full px-4 py-12 bg-gray-100 ">
-      
+    <section className="w-full px-4 py-12 bg-gradient-to-t from-[#CC99DE] to-white ">
       <div className="flex mx-auto items-center ">
         {/* <svg
           id="Layer_1"
@@ -38,11 +37,13 @@ export default function PricingPlan() {
           <path d="M17.139,11.292c-.571-.667-1.708-.665-2.277,0l-2.063,2.407c-.646,.754-.646,1.849,0,2.603l2.062,2.405c.285,.333,.7,.525,1.139,.525s.854-.191,1.139-.524l2.063-2.407c.646-.754,.646-1.849,0-2.603l-2.063-2.406Zm-1.139,5.671l-1.683-1.963,1.683-1.963,1.683,1.963-1.683,1.963Z"></path>
         </svg> */}
 
-        <h2 className="text-3xl font-bold lg:text-4xl w-full text-center">Explore Our Courses</h2>
+        <h2 className="text-3xl font-bold lg:text-4xl w-full text-center text-[#9E63B3]">
+        Arriving <span className="text-primary">Soon</span>
+        </h2>
       </div>
 
-      <div className="py-12 overflow-x-auto">
-        <div className="flex flex-col gap-6 snap-x snap-mandatory place-items-center pb-10 md:px-10 md:grid md:grid-cols-2 lg:grid-cols-3">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="grid max-w-md gap-10 row-gap-5 sm:row-gap-5 lg:max-w-full lg:grid-cols-3 sm:mx-auto">
           {/* Render the three cards using the reusable PricingCard component */}
           <PricingCard {...getSkinZyncPro()} onSubmit={handleProSubmit} />
           <PricingCard

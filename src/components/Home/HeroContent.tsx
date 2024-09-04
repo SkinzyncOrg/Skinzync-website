@@ -22,9 +22,9 @@ export default function HeroContent() {
         backgroundPosition: "center",
       }}
     >
-      <div className="hero-content mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-24">
+      <div className="hero-content mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Head */}
-        <div className="mt-10 text-center w-full">
+        <div className="mt-48 text-center w-full">
           <h1 className="text-2xl font-bold text-white max-w-md md:max-w-2xl mx-auto">
             Creating a Future
           </h1>

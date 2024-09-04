@@ -129,7 +129,7 @@ export default function Navbar() {
             </div>
           ) : (
             <div className="flex items-center justify-end space-x-4 md:mr-5">
-              <a href="/login" className="btn btn-ghost">
+              <a href="/login" className="btn btn-ghost hidden md:flex">
                 Login
               </a>
               <a href="/signup" className="btn btn-primary">
