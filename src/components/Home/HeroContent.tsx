@@ -1,36 +1,39 @@
 import React from "react";
 import { FaShop, FaFlaskVial, FaCalculator } from "react-icons/fa6";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
+import Background from "../../../public/bg.png";
 
 export default function HeroContent() {
   const router = useRouter();
   return (
     <section
-      className="w-full py-12 md:py-24 bg-gradient-to-r from-purple-50 to-pink-50 "
+      className="w-full min-h-screen "
       //  Add the bg-purple-500
       // style={{
       //   backgroundImage:
       //     "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
       // }}
       // from-violet-600 to-indigo-600
+      style={{
+        backgroundImage: 'url("/bg.png")',
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
     >
-      <div className="mx-auto my-4 max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="hero-content mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-24">
         {/* Head */}
-        <div className="mb-5 text-center">
-          <h2 className="text-4xl md:text-5xl text-center font-bold text-gray-900 py-5">
-            Where{" "}
-            <span className="bg-gradient-to-r from-[#a18cd1] to-[#fbc2eb] bg-clip-text text-transparent">
-              Beauty
-            </span>{" "}
-            Meets Innovation
+        <div className="mt-10 text-center w-full">
+          <h1 className="text-2xl font-bold text-white max-w-md md:max-w-2xl mx-auto">
+            Creating a Future
+          </h1>
+          <h2 className="text-4xl md:text-5xl text-center font-bold text-white py-4">
+            Where Beauty Meets Innovation
           </h2>
-          <p className="text-lg font-normal text-gray-900 max-w-md md:max-w-2xl mx-auto">
-            Discover premium raw materials and harness the power of AI to create
-            innovative cosmetic products.
-          </p>
         </div>
         {/* Search */}
-        <div className="my-10 mx-auto max-w-xl relative">
+        {/* <div className="my-10 mx-auto max-w-xl relative">
           <form>
             <div className="relative z-10 flex gap-x-3 p-3 bg-white border rounded-lg shadow-lg shadow-gray-100 ">
               <div className="w-full">
@@ -65,7 +68,7 @@ export default function HeroContent() {
               </div>
             </div>
           </form>
-        </div>
+        </div> */}
         {/* <div className="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-evenly lg:gap-x-8">
           <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
             <div className="bg-indigo-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-indigo-600"

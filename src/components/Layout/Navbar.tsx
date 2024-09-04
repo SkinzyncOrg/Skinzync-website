@@ -1,24 +1,23 @@
 "use client";
-import { useState } from 'react';
+import { useState } from "react";
 import Image from "next/image";
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 import axios from "axios";
-import { useAuthStore } from '@/store/authStore';
-
+import { useAuthStore } from "@/store/authStore";
 
 export default function Navbar() {
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
   const setAuthenticated = useAuthStore((state) => state.setAuthenticated);
   const logout = useAuthStore((state) => state.logout);
-    const router = useRouter();
+  const router = useRouter();
 
-  const handleLogout  = async () => {
+  const handleLogout = async () => {
     try {
-      await axios.post('/api/logout');
+      await axios.post("/api/logout");
       logout();
-      router.push('/login'); 
+      router.push("/login");
     } catch (error) {
-      console.error('Logout failed:', error);
+      console.error("Logout failed:", error);
     }
   };
 
@@ -69,16 +68,10 @@ export default function Navbar() {
                 <a href="/product">Materials</a>
               </li>
               <li>
-                <a href="/formulation">Formulation</a>
+                <a href="#">Formulation</a>
               </li>
               <li>
-                <a href="/aboutus">About Us</a>
-              </li>
-              <li>
-                <a href="/contactus">Contact Us</a>
-              </li>
-              <li>
-                <a href="/pricing">Pricing</a>
+                <a href="#">About Us</a>
               </li>
             </ul>
           </div>
@@ -129,14 +122,14 @@ export default function Navbar() {
                     <a>Settings</a>
                   </li>
                   <li>
-                    <button onClick={handleLogout }>Logout</button>
+                    <button onClick={handleLogout}>Logout</button>
                   </li>
                 </ul>
               </div>
             </div>
           ) : (
             <div className="flex items-center justify-end space-x-4 md:mr-5">
-              <a href="/login" className="btn btn-outline">
+              <a href="/login" className="btn btn-ghost">
                 Login
               </a>
               <a href="/signup" className="btn btn-primary">
@@ -157,26 +150,26 @@ export default function Navbar() {
         <ul className="menu bg-base-200 min-h-full w-80 p-4">
           {/* Sidebar content here */}
           <li>
-            <a className="text-lg font-bold" href="product">
-              MATERAILS
+            <a className="text-lg font-bold" href="/product">
+              Materials
             </a>
           </li>
           <div className="divider"></div>
           <li>
-            <a className="text-lg font-bold" href="product">
-              BEST SELLER
+            <a className="text-lg font-bold" href="/product">
+              Best Seller
             </a>
           </li>
           <div className="divider"></div>
           <li>
-            <a className="text-lg font-bold" href="formulation">
-              FORMULATION
+            <a className="text-lg font-bold" href="#">
+              Formulation
             </a>
           </li>
           <div className="divider"></div>
           <li>
-            <a className="text-lg font-bold" href="aboutus">
-              WHY US?
+            <a className="text-lg font-bold" href="#">
+              About Us
             </a>
           </li>
         </ul>

@@ -4,6 +4,13 @@ export interface Blog {
   description: string;
   imageUrl: string;
   link: string;
+  related: Related[];
+}
+
+export interface Related {
+  id: number;
+  title: string;
+  link: string;
 }
 
 export interface BlogSectionProps {

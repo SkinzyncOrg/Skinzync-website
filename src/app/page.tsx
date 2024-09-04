@@ -7,11 +7,11 @@ import ProductRecommend from "@/components/Home/ProductRecommend";
 import AIlanding from "@/components/Home/AIlanding";
 import AboutusSection from "@/components/Home/AboutusSection";
 import AboutusSection2 from "@/components/Home/AboutusSection2";
+import AboutusSection3 from "@/components/Home/AboutusSection3";
+import IntroduceSection from "@/components/Home/Introduce/IntroduceSection";
 import PricingPlan from "@/components/Home/PricingPlan";
 import { Blog } from "@/types/trendBlog";
 import { fetchBlogsByCategory } from "@/utils/blogApi";
-import { mockBlogs } from "@/constants/blogData";
-
 
 export default function Home() {
   const [blogs, setBlogs] = useState<Blog[]>([]);
@@ -35,16 +35,15 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <HeroContent />
+      <IntroduceSection />
       <ProductRecommend />
-      <AIlanding />
       {!loading ? (
         <BlogSection blogs={blogs} />
       ) : (
         <p>Loading blogs...</p> // Optional loading state
       )}
       <PricingPlan />
-      {/* <AboutusSection /> */}
-      <AboutusSection2 />
+      <AboutusSection3 />
     </div>
   );
 }

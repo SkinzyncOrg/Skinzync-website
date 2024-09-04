@@ -17,10 +17,14 @@ export default function SignupForm() {
     e.preventDefault();
     setLoading(true);
     setError("");
-    const company = (e.target as HTMLFormElement).company.value;
     const email = (e.target as HTMLFormElement).email.value;
     const password = (e.target as HTMLFormElement).password.value;
-    
+    let company = null;;
+
+    if (activeTab === 1) {
+      // Only read company value if the "Company" tab is active
+      company = (e.target as HTMLFormElement).company?.value;
+    }
     try {
      await globalApi.registerUser(email, password, company);
       router.push("/login");

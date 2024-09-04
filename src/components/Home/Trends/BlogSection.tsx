@@ -27,7 +27,7 @@ export default function BlogSection({ blogs }: BlogSectionProps) {
           <div className="flex flex-col md:flex-row md:justify-between ">
             <div className="flex flex-col">
               <h2 className="text-4xl font-bold text-gray-900 leading-[3.25rem] mb-4">
-                Trends <span className="text-indigo-600">Now</span>
+                Trends <span className="text-purple-700">Now</span>
               </h2>
               {/* Category buttons */}
               <div className="">
@@ -35,10 +35,10 @@ export default function BlogSection({ blogs }: BlogSectionProps) {
                   <button
                     key={category}
                     onClick={() => handleCategoryChange(category)}
-                    className={`m-1 py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border  ${
+                    className={`m-1 py-3 px-4 inline-flex items-center gap-x-2 rounded-xl hover:underline hover:underline-offset-2 hover:transition ${
                       activeCategory === category
-                        ? "bg-indigo-600 text-white"
-                        : "border border-indigo-600 text-indigo-600 "
+                        ? "text-purple-700 font-medium"
+                        : "text-gray-500"
                     }`}
                   >
                     {category}

@@ -23,11 +23,11 @@ export default function BlogList({ blogs }: BlogListProps) {
   }, []);
 
   return (
-    <div className="w-full">
+    <div className="max-w-6xl mx-10">
       <Swiper
         modules={[Navigation, Pagination]}
         spaceBetween={28}
-        slidesPerView={2}
+        slidesPerView={1}
         loop
         navigation={{
           nextEl: ".custom-next-button",
@@ -35,10 +35,11 @@ export default function BlogList({ blogs }: BlogListProps) {
         }}
         breakpoints={{
           0: { slidesPerView: 1, spaceBetween: 20 },
-          568: { slidesPerView: 2, spaceBetween: 28 },
-          768: { slidesPerView: 3, spaceBetween: 28 },
-          1024: { slidesPerView: 4, spaceBetween: 32 },
+          568: { slidesPerView: 1, spaceBetween: 28 },
+          768: { slidesPerView: 1, spaceBetween: 28 },
+          1024: { slidesPerView: 1, spaceBetween: 32 },
         }}
+        
       >
         {blogs.map((blog) => (
             <SwiperSlide key={blog.id}>
