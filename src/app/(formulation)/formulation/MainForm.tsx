@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import FormSection from "./FormSections";
-import { FormSection as FormSectionType } from "../../types/formType";
+import { FormSection as FormSectionType } from "../../../types/formType";
 import { useRouter } from "next/navigation";
 
 interface MainFormProps {

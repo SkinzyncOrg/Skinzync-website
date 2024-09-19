@@ -1,6 +1,6 @@
 // FormSection.tsx
 import React from 'react';
-import { Option } from '../../types/formType';
+import { Option } from '../../../types/formType';
 
 interface FormSectionProps {
   section: {
