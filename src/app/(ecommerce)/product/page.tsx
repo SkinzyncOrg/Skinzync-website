@@ -5,11 +5,9 @@ import { useRouter } from "next/navigation";
 import globalApi from "@/utils/globalApi";
 import { IoCartOutline } from "react-icons/io5";
 import { BsChat } from "react-icons/bs";
-import { quantum } from "ldrs";
 import FilterDrawer from "@/components//ProductSection/FilterDrawer";
 import mockData from "@/constants/mockProducts.json";
 
-quantum.register();
 
 interface ProductListData {
   product_id: number;
@@ -71,7 +69,7 @@ export default function ProductPage() {
   if (loading)
     return (
       <div className="flex w-full h-full justify-center items-center">
-        <l-quantum size="120" speed="1.75" color="black"></l-quantum>
+        <span className="loading loading-spinner loading-lg"></span>
       </div>
     );
   if (error)

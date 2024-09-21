@@ -8,9 +8,7 @@ import globalApi from "@/utils/globalApi";
 import ecocert from "../../../../../public/ecocert.svg";
 import { FaPlus, FaMinus } from "react-icons/fa6";
 import Image from "next/image";
-import { quantum } from "ldrs";
 import { ProductImageData, DetailedProductData } from "@/types/productDetail";
-quantum.register();
 
 interface ProductDetailProps {
   params: {
@@ -62,7 +60,7 @@ export default function ProductDetail({ params }: ProductDetailProps) {
   if (loading)
     return (
       <div className="flex w-full h-full justify-center items-center">
-        <l-quantum size="100" speed="1.75" color="black"></l-quantum>
+        <span className="loading loading-spinner loading-lg"></span>
       </div>
     );
   if (error)

@@ -2,9 +2,6 @@
 import React, {FormEvent,useState} from "react";
 import { useRouter } from "next/navigation";
 import globalApi from "@/utils/globalApi";
-import { ring } from "ldrs";
-
-ring.register();
 
 const tabContentTitles = ["Individual", "Company"];
 export default function SignupForm() {
@@ -96,13 +93,7 @@ export default function SignupForm() {
         </div>
         <div className="form-control mt-6">
         {loading ? (
-            <l-ring
-              size="40"
-              stroke="5"
-              bg-opacity="0"
-              speed="2"
-              color="#5A3766"
-            ></l-ring>
+            <span className="loading loading-spinner loading-lg"></span>
           ) : (
             <button type="submit" className="btn btn-primary w-full">
               Sign Up

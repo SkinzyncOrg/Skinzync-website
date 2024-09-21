@@ -3,9 +3,6 @@ import React, { useState, FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { useAuthStore } from "@/store/authStore";
 import globalApi from "@/utils/globalApi";
-import { ring } from "ldrs";
-
-ring.register();
 
 export default function LoginForm() {
   const [email, setEmail] = useState<string>("");
@@ -59,13 +56,7 @@ export default function LoginForm() {
         </div>
         <div className="form-control mt-6 items-center">
           {loading ? (
-            <l-ring
-              size="40"
-              stroke="5"
-              bg-opacity="0"
-              speed="2"
-              color="#5A3766"
-            ></l-ring>
+            <span className="loading loading-spinner loading-lg"></span>
           ) : (
             <button type="submit" className="btn btn-primary w-full">
               Login
