@@ -1,3 +1,4 @@
+"use client";
 import LoginForm from "./form";
 import FormWrapper from "@/components/FormWrapper";
 export default function LoginPage() {

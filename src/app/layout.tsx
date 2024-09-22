@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Sans_Thai } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Layout/Navbar";
+import Navbar from "@/components/Layout/Navbar.server";
 import Footer from "@/components/Layout/Footer";
 
 const noto = Noto_Sans_Thai({ subsets: ["latin"] });
