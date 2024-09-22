@@ -47,10 +47,10 @@ export default function ProductPage() {
   useEffect(() => {
     async function fetchProducts() {
       try {
-        // const res = await globalApi.getProducts();
-        // setProducts(res);
+        const res = await globalApi.getProducts();
+        setProducts(res);
         // NOTE: mock data
-        setProducts(mockData);
+        // setProducts(mockData);
       } catch (err: any) {
         setError(err.message);
         console.error(err);

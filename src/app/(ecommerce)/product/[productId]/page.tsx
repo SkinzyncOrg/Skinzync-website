@@ -9,6 +9,7 @@ import ecocert from "../../../../../public/ecocert.svg";
 import { FaPlus, FaMinus } from "react-icons/fa6";
 import Image from "next/image";
 import { ProductImageData, DetailedProductData } from "@/types/productDetail";
+import { useCartStore } from "@/store/cartStore";
 
 interface ProductDetailProps {
   params: {
@@ -24,29 +25,31 @@ export default function ProductDetail({ params }: ProductDetailProps) {
   const [error, setError] = useState<string | null>(null);
   const [selectedVariant, setSelectedVariant] = useState<any>(null);
   const [selectedCountry, setSelectedCountry] = useState<string>("");
+  const [quantity, setQuantity] = useState<number>(1);
+  const { addCartItem } = useCartStore();
 
   useEffect(() => {
     async function fetchProduct() {
       try {
-        // const res = await globalApi.getProductById(productId);
-        // setProduct(res);
-        // setImageUrls(
-        //   res.product_images?.map((img: ProductImageData) => img.image_url) || []
-        // );
-        // setSelectedVariant(res.product_variants[0]);
-        // NOTE: mock data
-        const product = mockData.find(
-          (product) => product.product_id === parseInt(productId)
-        );
-        if (!product) throw new Error("Product not found");
-        setProduct(product);
+        const res = await globalApi.getProductById(productId);
+        setProduct(res);
         setImageUrls(
-          product.product_images?.map((img: ProductImageData) => img.image_url) || []
+          res.product_images?.map((img: ProductImageData) => img.image_url) || []
         );
-        setSelectedVariant(product.product_variants[0]);
-        if (product.regulations && product.regulations.length > 0) {
-          setSelectedCountry(product.regulations[0].country);
+        setSelectedVariant(res.product_variants[0]);
+        if (res.regulations && res.regulations.length > 0) {
+          setSelectedCountry(res.regulations[0].country);
         }
+        // NOTE: mock data
+        // const product = mockData.find(
+          //   (product) => product.product_id === parseInt(productId)
+          // );
+          // if (!product) throw new Error("Product not found");
+          // setProduct(product);
+          // setSelectedVariant(product.product_variants[0]);
+          // if (product.regulations && product.regulations.length > 0) {
+          //   setSelectedCountry(product.regulations[0].country);
+          // }
       } catch (error: any) {
         console.error(error);
         setError(error.message);
@@ -83,8 +86,19 @@ export default function ProductDetail({ params }: ProductDetailProps) {
     setSelectedVariant(selected);
   };
 
+  const updateQuantity = (newQuantity: number) => {
+    setQuantity(Math.max(1, newQuantity)); // Ensure quantity is never below 1
+  };
+
+  const handleAddToCart = () => {
+    if (selectedVariant && product) {
+      addCartItem(selectedVariant.variant_id, product.product_id, quantity);
+      console.log(`Quantity : ${quantity} variantID : ${selectedVariant.variant_id} to cart.`);
+    }
+  };
+
   return (
-    <div className="flex flex-col w-full p-6">
+    <div className="flex flex-col w-full h-full py-6 md:px-20">
       <div className="flex flex-row items-center space-x-5 md:space-x-10 w-full mb-6">
         <button
           className="btn btn-circle "
@@ -140,29 +154,33 @@ export default function ProductDetail({ params }: ProductDetailProps) {
                 ))}
               </div>
             </div>
+            {/* Quantity Controls */}
             <div className="flex items-center justify-center h-full">
               <button
                 className="group rounded-l-xl px-4 py-3 border border-gray-200 flex items-center justify-center shadow-sm shadow-transparent transition-all duration-500 hover:bg-gray-50 hover:border-gray-300 hover:shadow-gray-300 focus-within:outline-gray-300"
-                // onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                onClick={() => updateQuantity(quantity - 1)}
               >
                 <FaMinus />
               </button>
               <input
                 type="text"
                 className="border-y border-gray-200 outline-none text-gray-900 font-semibold text-lg w-1/5 placeholder:text-gray-900 py-[6px] text-center bg-transparent"
-                // value={item.quantity}
-                // onChange={(e) =>
-                //   updateQuantity(item.id, parseInt(e.target.value) || 0)
-                // }
+                value={quantity}
+                onChange={(e) => updateQuantity(parseInt(e.target.value) || 1)}
               />
               <button
                 className="group rounded-r-xl px-4 py-3 border border-gray-200 flex items-center justify-center shadow-sm shadow-transparent transition-all duration-500 hover:bg-gray-50 hover:border-gray-300 hover:shadow-gray-300 focus-within:outline-gray-300"
-                // onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                onClick={() => updateQuantity(quantity + 1)}
               >
                 <FaPlus />
               </button>
             </div>
-            <button className="btn btn-accent btn-block mt-6 ">
+
+            {/* Add to Cart Button */}
+            <button
+              className="btn btn-accent btn-block mt-6"
+              onClick={handleAddToCart}
+            >
               <FaCartShopping className="mr-2 w-5 h-5" />
               Add to cart
             </button>
