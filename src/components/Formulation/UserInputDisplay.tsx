@@ -5,7 +5,9 @@ import { FormField, Option } from "@/constants/formFormulationType";
 
 interface UserInputDisplayProps {
   formFields: FormField[];
-  searchParams: URLSearchParams;
+  searchParams: {
+    [key: string]: string | string[] | undefined;
+  };
 }
 
 export const displayUserInput = ({
@@ -26,7 +28,7 @@ export const displayUserInput = ({
         }
 
         // Get the user's selected value for this field
-        const value = searchParams.get(field.name) as string | undefined;
+        const value = searchParams[field.name] as string | undefined;
         let displayValue = value || "N/A";
 
         // If the field has options, find the label for the selected value

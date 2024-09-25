@@ -1,5 +1,7 @@
 // components/Formulation/RadarChart.tsx
 
+'use client';
+
 import React from "react";
 import dynamic from "next/dynamic";
 import { ApexOptions } from "apexcharts";
@@ -29,9 +31,13 @@ const categoriesTypes: { [key: string]: string[] } = {
     "Spreadability",
     "Thickness",
   ],
+  // Add other form types as needed
 };
 
-const RadarChart: React.FC<RadarChartProps> = ({ additionalProperties, formType }) => {
+const RadarChart: React.FC<RadarChartProps> = ({
+  additionalProperties,
+  formType,
+}) => {
   // Get the categories for the form type
   const categories = categoriesTypes[formType];
 
