@@ -47,7 +47,7 @@ export default function Navbar() {
                 <Link href="/product">Materials</Link>
               </li>
               <li>
-                <Link href="#">Formulation</Link>
+                <Link href="/formulation">Formulation</Link>
               </li>
               <li>
                 <Link href="#">About Us</Link>

@@ -1,0 +1,539 @@
+{
+  "Hydrating": [
+    {
+      "Dosage form": "Emulsions/Creams",
+      "Time of use": "Day",
+      "Viscosity": "12000-25000",
+      "Appearance": "Opaque",
+      "Formulas": [
+        {
+          "Formula number": 1,
+          "pH": "5.5-6.5",
+          "Viscosity (cps)": "12000-18000",
+          "Ingredients": [
+            {
+              "Ingredient": "DI water",
+              "%w/w": 72.3,
+              "Function": "diluent",
+              "Supplier": ""
+            },
+            {
+              "Ingredient": "Sorbitol and Glycerin",
+              "%w/w": 3,
+              "Function": "moisturising agent",
+              "Supplier": "Ingredion"
+            },
+            {
+              "Ingredient": "Isoamyl Capryl Caprylate",
+              "%w/w": 2,
+              "Function": "Emollient",
+              "Supplier": "Oxiteno"
+            },
+            {
+              "Ingredient": "Dimethicone",
+              "%w/w": 1.5,
+              "Function": "Emollient",
+              "Supplier": "Elkem"
+            },
+            {
+              "Ingredient": "Dimethicone (and) Dimethicone Crosspolymer",
+              "%w/w": 3,
+              "Function": "Emollient",
+              "Supplier": "Elkem"
+            },
+            {
+              "Ingredient": "Phenoxyethanol, Caprylyl Glycol, Ethylhexylglycerin",
+              "%w/w": 1,
+              "Function": "Preservative",
+              "Supplier": "Lincoln MFG"
+            },
+            {
+              "Ingredient": "Hyaluronic Acid, Water, Propanediol, Ethylhexylglycerin, Potassium Sorbate",
+              "%w/w": 10,
+              "Function": "moisturising agent",
+              "Supplier": "Lincoln MFG"
+            },
+            {
+              "Ingredient": "Propanediol (and) Psidium Guajava Leaf Extract (and) Saccharomyces Lysate Extract",
+              "%w/w": 2,
+              "Function": "moisturising agent",
+              "Supplier": "Innovacos"
+            },
+            {
+              "Ingredient": "Glycerin and Retinal",
+              "%w/w": 1,
+              "Function": "anti-aging agent",
+              "Supplier": "Adeka"
+            },
+            {
+              "Ingredient": "Citrus Blossom",
+              "%w/w": 0.2,
+              "Function": "Odorant",
+              "Supplier": "Flavor & Fragrance Specialties"
+            },
+            {
+              "Ingredient": "Sodium Acrylate/Sodium Acryloyldimethyl Taurate (ATBS) Copolymer & Mineral Oil & Trideceth-6",
+              "%w/w": 4,
+              "Function": "Gelling agent",
+              "Supplier": "SNF"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 3,
+            "Advance delivery system": 4,
+            "Matte-Finish and Oil control": 3,
+            "Long lasting hydration": 5,
+            "Spreadability": 4,
+            "Ease of formulating": 4
+          }
+        },
+        {
+          "Formula number": 2,
+          "pH": "6.9-7.4",
+          "Viscosity (cps)": "10000-16000",
+          "Ingredients": [
+            {
+              "Ingredient": "DI water",
+              "%w/w": 73.9,
+              "Function": "diluent",
+              "Supplier": ""
+            },
+            {
+              "Ingredient": "Phenoxyethanol",
+              "%w/w": 0.5,
+              "Function": "preservative",
+              "Supplier": "Clariant"
+            },
+            {
+              "Ingredient": "Glycerin",
+              "%w/w": 3,
+              "Function": "moisturising agent"
+            },
+            {
+              "Ingredient": "Butylene glycol, 1,3-butanediol",
+              "%w/w": 3,
+              "Function": "moisturising agent"
+            },
+            {
+              "Ingredient": "Isopropyl isostearate",
+              "%w/w": 5,
+              "Function": "Emollient",
+              "Supplier": "Lubrizol"
+            },
+            {
+              "Ingredient": "Neopentyl glycol diethylhexanoate",
+              "%w/w": 3,
+              "Function": "Emollient",
+              "Supplier": "Lubrizol"
+            },
+            {
+              "Ingredient": "Dimethicone",
+              "%w/w": 2,
+              "Function": "Emollient",
+              "Supplier": "Dow Corning"
+            },
+            {
+              "Ingredient": "Stearic acid",
+              "%w/w": 0.2,
+              "Function": "Emulsifier",
+              "Supplier": "Croda"
+            },
+            {
+              "Ingredient": "PEG-20 methyl glucose sesquistearate",
+              "%w/w": 0.2,
+              "Function": "Emulsifier",
+              "Supplier": "Lubrizol"
+            },
+            {
+              "Ingredient": "Methyl glucose sesquistearate",
+              "%w/w": 0.2,
+              "Function": "Emulsifier",
+              "Supplier": "Lubrizol"
+            },
+            {
+              "Ingredient": "Acrylates/beheneth-25 methacrylate copolymer",
+              "%w/w": 1.5,
+              "Function": "thickening agent",
+              "Supplier": "Lubrizol"
+            },
+            {
+              "Ingredient": "Sodium hydroxide",
+              "%w/w": 0.35,
+              "Function": "buffer"
+            },
+            {
+              "Ingredient": "CI 17200",
+              "%w/w": 0.15,
+              "Function": "colorant",
+              "Supplier": "Hilton Davis"
+            },
+            {
+              "Ingredient": "Carbopol 940",
+              "%w/w": 3,
+              "Function": "thickening agent"
+            },
+            {
+              "Ingredient": "Butylene glycol (and) aqua (and) plankton extract",
+              "%w/w": 2,
+              "Function": "Anti-aging agent",
+              "Supplier": "Lipotec S.A."
+            },
+            {
+              "Ingredient": "Aqua (and) acetyl tetrapeptide-2 (and) caprylyl glycol",
+              "%w/w": 2,
+              "Function": "Anti-aging agent",
+              "Supplier": "Lipotec S.A."
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 3,
+            "Advance delivery system": 3,
+            "Matte-Finish and Oil control": 3,
+            "Long lasting hydration": 3,
+            "Spreadability": 4,
+            "Ease of formulating": 3
+          }
+        },
+        {
+          "Formula number": 3,
+          "pH": "5.0-5.5",
+          "Viscosity (cps)": "19000-24000",
+          "Ingredients": [
+            {
+              "Ingredient": "Glyceryl Stearate Citrate, Cetearyl Alcohol, Glyceryl Caprylate",
+              "%w/w": 6,
+              "Function": "Emulsifier"
+            },
+            {
+              "Ingredient": "Oleyl Erucate",
+              "%w/w": 2,
+              "Function": "Emollient"
+            },
+            {
+              "Ingredient": "Cetyl Ricinoleate",
+              "%w/w": 1,
+              "Function": "Emollient"
+            },
+            {
+              "Ingredient": "Myristyl Myristate",
+              "%w/w": 1,
+              "Function": "Emollient"
+            },
+            {
+              "Ingredient": "Glyceryl Stearate",
+              "%w/w": 1,
+              "Function": "Emulsifier"
+            },
+            {
+              "Ingredient": "Lecythis Minor Seed Oil",
+              "%w/w": 5,
+              "Function": "Emollient"
+            },
+            {
+              "Ingredient": "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+              "%w/w": 1,
+              "Function": "Emollient"
+            },
+            {
+              "Ingredient": "Sodium Phytate, Aqua, Alcohol",
+              "%w/w": 0.1,
+              "Function": "Chelating agent"
+            },
+            { "Ingredient": "DI water", "%w/w": 73.6, "Function": "diluent" },
+            { "Ingredient": "DI water", "%w/w": 5, "Function": "solubilizer" },
+            { "Ingredient": "Glycerin", "%w/w": 3, "Function": "solubilizer" },
+            {
+              "Ingredient": "Xanthan Gum",
+              "%w/w": 0.3,
+              "Function": "gelling agent"
+            },
+            {
+              "Ingredient": "Sodium Levulinate, Sodium Anisate, Glycerin, Aqua",
+              "%w/w": 3.5,
+              "Function": "moisturising agent"
+            },
+            { "Ingredient": "Citric acid", "%w/w": "qs", "Function": "buffer" }
+          ],
+          "Additional Properties": {
+            "absorption time": 4,
+            "Advance delivery system": 2,
+            "Matte-Finish and Oil control": 2,
+            "Long lasting hydration": 4,
+            "Spreadability": 3,
+            "Ease of formulating": 4
+          }
+        }
+      ]
+    }
+  ],
+  "Exfoliating":[
+    {
+      "Dosage form": "Emulsion/creams",
+      "Time of use": "Day",
+      "Viscosity": "12000-25000",
+      "Appearance": "opaque",
+      "Formulas": [
+        {
+          "Formula number": 1,
+          "pH": "5.5-6.5",
+          "Viscosity (cps)": "12000-18000",
+          "Ingredients": [
+            {
+              "Ingredient": "DI water",
+              "%w/w": 72.3,
+              "Function": "diluent",
+              "Supplier": ""
+            },
+            {
+              "Ingredient": "Sorbitol and Glycerin",
+              "%w/w": 3,
+              "Function": "moisturising agent",
+              "Supplier": "Ingredion"
+            },
+            {
+              "Ingredient": "Isoamyl Capryl Caprylate",
+              "%w/w": 2,
+              "Function": "Emollient",
+              "Supplier": "Oxiteno"
+            },
+            {
+              "Ingredient": "Dimethicone",
+              "%w/w": 1.5,
+              "Function": "Emollient",
+              "Supplier": "Elkem"
+            },
+            {
+              "Ingredient": "Dimethicone (and) Dimethicone Crosspolymer",
+              "%w/w": 3,
+              "Function": "Emollient",
+              "Supplier": "Elkem"
+            },
+            {
+              "Ingredient": "Phenoxyethanol, Caprylyl Glycol, Ethylhexylglycerin",
+              "%w/w": 1,
+              "Function": "Preservative",
+              "Supplier": "Lincoln MFG"
+            },
+            {
+              "Ingredient": "Hyaluronic Acid, Water, Propanediol, Ethylhexylglycerin, Potassium Sorbate",
+              "%w/w": 10,
+              "Function": "moisturising agent",
+              "Supplier": "Lincoln MFG"
+            },
+            {
+              "Ingredient": "Propanediol (and) Psidium Guajava Leaf Extract (and) Saccharomyces Lysate Extract",
+              "%w/w": 2,
+              "Function": "moisturising agent",
+              "Supplier": "Innovacos"
+            },
+            {
+              "Ingredient": "Glycerin and Retinal",
+              "%w/w": 1,
+              "Function": "anti-aging agent",
+              "Supplier": "Adeka"
+            },
+            {
+              "Ingredient": "Citrus Blossom",
+              "%w/w": 0.2,
+              "Function": "Odorant",
+              "Supplier": "Flavor & Fragrance Specialties"
+            },
+            {
+              "Ingredient": "Sodium Acrylate/Sodium Acryloyldimethyl Taurate (ATBS) Copolymer & Mineral Oil & Trideceth-6",
+              "%w/w": 4,
+              "Function": "Gelling agent",
+              "Supplier": "SNF"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 3,
+            "Advance delivery system": 4,
+            "Matte-Finish and Oil control": 3,
+            "Long lasting hydration": 5,
+            "Spreadability": 4,
+            "Ease of formulating": 4
+          }
+        },
+        {
+          "Formula number": 2,
+          "pH": "6.9-7.4",
+          "Viscosity (cps)": "10000-16000",
+          "Ingredients": [
+            {
+              "Ingredient": "DI water",
+              "%w/w": 73.9,
+              "Function": "diluent",
+              "Supplier": ""
+            },
+            {
+              "Ingredient": "Phenoxyethanol",
+              "%w/w": 0.5,
+              "Function": "preservative",
+              "Supplier": "Clariant"
+            },
+            {
+              "Ingredient": "Glycerin",
+              "%w/w": 3,
+              "Function": "moisturising agent"
+            },
+            {
+              "Ingredient": "Butylene glycol, 1,3-butanediol",
+              "%w/w": 3,
+              "Function": "moisturising agent"
+            },
+            {
+              "Ingredient": "Isopropyl isostearate",
+              "%w/w": 5,
+              "Function": "Emollient",
+              "Supplier": "Lubrizol"
+            },
+            {
+              "Ingredient": "Neopentyl glycol diethylhexanoate",
+              "%w/w": 3,
+              "Function": "Emollient",
+              "Supplier": "Lubrizol"
+            },
+            {
+              "Ingredient": "Dimethicone",
+              "%w/w": 2,
+              "Function": "Emollient",
+              "Supplier": "Dow Corning"
+            },
+            {
+              "Ingredient": "Stearic acid",
+              "%w/w": 0.2,
+              "Function": "Emulsifier",
+              "Supplier": "Croda"
+            },
+            {
+              "Ingredient": "PEG-20 methyl glucose sesquistearate",
+              "%w/w": 0.2,
+              "Function": "Emulsifier",
+              "Supplier": "Lubrizol"
+            },
+            {
+              "Ingredient": "Methyl glucose sesquistearate",
+              "%w/w": 0.2,
+              "Function": "Emulsifier",
+              "Supplier": "Lubrizol"
+            },
+            {
+              "Ingredient": "Acrylates/beheneth-25 methacrylate copolymer",
+              "%w/w": 1.5,
+              "Function": "thickening agent",
+              "Supplier": "Lubrizol"
+            },
+            {
+              "Ingredient": "Sodium hydroxide",
+              "%w/w": 0.35,
+              "Function": "buffer"
+            },
+            {
+              "Ingredient": "CI 17200",
+              "%w/w": 0.15,
+              "Function": "colorant",
+              "Supplier": "Hilton Davis"
+            },
+            {
+              "Ingredient": "Carbopol 940",
+              "%w/w": 3,
+              "Function": "thickening agent"
+            },
+            {
+              "Ingredient": "Butylene glycol (and) aqua (and) plankton extract",
+              "%w/w": 2,
+              "Function": "Anti-aging agent",
+              "Supplier": "Lipotec S.A."
+            },
+            {
+              "Ingredient": "Aqua (and) acetyl tetrapeptide-2 (and) caprylyl glycol",
+              "%w/w": 2,
+              "Function": "Anti-aging agent",
+              "Supplier": "Lipotec S.A."
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 3,
+            "Advance delivery system": 3,
+            "Matte-Finish and Oil control": 3,
+            "Long lasting hydration": 3,
+            "Spreadability": 4,
+            "Ease of formulating": 3
+          }
+        },
+        {
+          "Formula number": 3,
+          "pH": "5.0-5.5",
+          "Viscosity (cps)": "19000-24000",
+          "Ingredients": [
+            {
+              "Ingredient": "Glyceryl Stearate Citrate, Cetearyl Alcohol, Glyceryl Caprylate",
+              "%w/w": 6,
+              "Function": "Emulsifier"
+            },
+            {
+              "Ingredient": "Oleyl Erucate",
+              "%w/w": 2,
+              "Function": "Emollient"
+            },
+            {
+              "Ingredient": "Cetyl Ricinoleate",
+              "%w/w": 1,
+              "Function": "Emollient"
+            },
+            {
+              "Ingredient": "Myristyl Myristate",
+              "%w/w": 1,
+              "Function": "Emollient"
+            },
+            {
+              "Ingredient": "Glyceryl Stearate",
+              "%w/w": 1,
+              "Function": "Emulsifier"
+            },
+            {
+              "Ingredient": "Lecythis Minor Seed Oil",
+              "%w/w": 5,
+              "Function": "Emollient"
+            },
+            {
+              "Ingredient": "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
+              "%w/w": 1,
+              "Function": "Emollient"
+            },
+            {
+              "Ingredient": "Sodium Phytate, Aqua, Alcohol",
+              "%w/w": 0.1,
+              "Function": "Chelating agent"
+            },
+            { "Ingredient": "DI water", "%w/w": 73.6, "Function": "diluent" },
+            { "Ingredient": "DI water", "%w/w": 5, "Function": "solubilizer" },
+            { "Ingredient": "Glycerin", "%w/w": 3, "Function": "solubilizer" },
+            {
+              "Ingredient": "Xanthan Gum",
+              "%w/w": 0.3,
+              "Function": "gelling agent"
+            },
+            {
+              "Ingredient": "Sodium Levulinate, Sodium Anisate, Glycerin, Aqua",
+              "%w/w": 3.5,
+              "Function": "moisturising agent"
+            },
+            { "Ingredient": "Citric acid", "%w/w": "qs", "Function": "buffer" }
+          ],
+          "Additional Properties": {
+            "absorption time": 4,
+            "Advance delivery system": 2,
+            "Matte-Finish and Oil control": 2,
+            "Long lasting hydration": 4,
+            "Spreadability": 3,
+            "Ease of formulating": 4
+          }
+        }
+      ]
+    }
+  ],
+  "Anti-aging":[],
+  "Brightening/Whitening":[],
+  "Anti-acne":[]
+}

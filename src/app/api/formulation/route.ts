@@ -1,27 +1,58 @@
-import { NextResponse } from 'next/server';
+// src/app/api/formulas/route.ts
+"use server";
+import { NextResponse, NextRequest } from 'next/server';
+import moisturizerData from '@/constants/moisturizer.json';
+// import sunScreenData from '@/constants/sun_screen.json';
+// Import other data files as needed
 
-export async function POST(request: Request) {
+export async function POST(request: NextRequest) {
   try {
-    const formData = await request.json();
+    const body = await request.json();
+    const {
+      formType,
+      dosageForm,
+      timeOfUse,
+      viscosity,
+      function: selectedFunction,
+      appearance,
+    } = body;
 
-    // validate & save it to a database, etc.
+    // Load data based on formType
+    let data: any;
+    if (formType === 'moisturizer') {
+      data = moisturizerData;
+    } else if (formType === 'sun_screen') {
+      // data = sunScreenData;
+    } else {
+      // Handle other form types or return an error
+      return NextResponse.json(
+        { error: 'Invalid form type' },
+        { status: 400 }
+      );
+    }
 
-    // Mock response
-    const response = {
-      message: "Form data received successfully.",
-      receivedData: formData,
-      processedData: {
-        // Mock processed data
-        result: "This is a mock result based on the received data.",
-      },
-    };
+    console.log('Request body:', body);
+    // Access the data for the selected function
+    const functionData = data[selectedFunction] || [];
+    console.log('Function data:', functionData);
 
-    // Return a JSON response
-    return NextResponse.json(response, { status: 200 });
+    // Filter data based on user input
+    const filteredFormulas = functionData.filter((item: any) => {
+      return (
+        item['Dosage form'] === dosageForm &&
+        item['Time of use'] === timeOfUse &&
+        item['Viscosity'] === viscosity &&
+        item['Appearance'] === appearance
+      );
+    });
+
+    console.log('Filtered formulas:', filteredFormulas);
+
+    return NextResponse.json({ formulas: filteredFormulas || [] });
   } catch (error) {
-    console.error("Error processing form data:", error);
+    console.error('Error fetching formulas:', error);
     return NextResponse.json(
-      { message: "Failed to process form data.", error: error as Error },
+      { error: 'Error fetching formulas' },
       { status: 500 }
     );
   }
