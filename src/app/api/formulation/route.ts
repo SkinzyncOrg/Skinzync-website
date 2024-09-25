@@ -10,11 +10,11 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const {
       formType,
-      dosageForm,
-      timeOfUse,
-      viscosity,
+      dosage_form,
+      time_of_used,
       function: selectedFunction,
-      appearance,
+      viscosity,
+      appearances,
     } = body;
 
     // Load data based on formType
@@ -31,22 +31,22 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    console.log('Request body:', body);
+    // console.log('Request body:', body);
     // Access the data for the selected function
     const functionData = data[selectedFunction] || [];
-    console.log('Function data:', functionData);
+    // console.log('Function data:', functionData);
 
     // Filter data based on user input
     const filteredFormulas = functionData.filter((item: any) => {
       return (
-        item['Dosage form'] === dosageForm &&
-        item['Time of use'] === timeOfUse &&
+        item['Dosage form'] === dosage_form &&
+        item['Time of use'] === time_of_used &&
         item['Viscosity'] === viscosity &&
-        item['Appearance'] === appearance
+        item['Appearance'] === appearances
       );
     });
 
-    console.log('Filtered formulas:', filteredFormulas);
+    // console.log('Filtered formulas:', filteredFormulas);
 
     return NextResponse.json({ formulas: filteredFormulas || [] });
   } catch (error) {

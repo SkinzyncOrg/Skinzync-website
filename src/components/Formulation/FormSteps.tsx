@@ -76,18 +76,18 @@ const FormSteps: React.FC = () => {
 
 const handleSubmit = async () => {
   if (validateForm()) {
-    // console.log('Form submitted:', formData);
     // console.log('Form type:', formType);
 
      // Build the URL with query parameters
      const params = new URLSearchParams({
       formType,
-      dosageForm: formData.dosage_form,
-      timeOfUse: formData.time_of_used,
+      dosage_form: formData.dosage_form,
+      time_of_used: formData.time_of_used,
       function: formData.function,
       viscosity: formData.viscosity,
-      appearance: formData.appearances,
+      appearances: formData.appearances,
     });
+    
 
      // Construct the full URL
      const url = `/formulation/result?${params.toString()}`;
