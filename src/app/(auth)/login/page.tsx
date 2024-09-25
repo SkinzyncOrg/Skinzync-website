@@ -9,7 +9,7 @@ export default function LoginPage() {
     >
       <LoginForm />
       <p className="text-sm font-light text-gray-500  mt-2">
-        Don't have an account yet?{" "}
+        Don&apos;t have an account yet?{" "}
           <a
             href="/signup"
             className="font-medium text-primary hover:underline "

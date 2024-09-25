@@ -16,7 +16,7 @@ export default function ProductRecommend() {
             <p className="mx-auto max-w-[900px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Explore our vast selection of high-quality raw materials for your
               cosmetic creations. From essential oils to active ingredients,
-              we've got you covered.
+              we&apos;ve got you covered.
             </p>
           </div>
         </div>

@@ -209,7 +209,7 @@ export default function FilterDrawer({ onFiltersApplied }: FilterDrawerProps) {
               </div>
               {priceRange[1] - priceRange[0] > MAX_DIFFERENCE && (
                 <p className="text-red-500 text-sm">
-                  The difference between minimum and maximum price can't exceed{" "}
+                  The difference between minimum and maximum price can&apos;t exceed{" "}
                   {MAX_DIFFERENCE}.
                 </p>
               )}
