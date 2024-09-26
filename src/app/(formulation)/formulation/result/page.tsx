@@ -68,7 +68,7 @@ const ResultPage: React.FC<ResultPageProps> = async ({ searchParams }) => {
 
       {/* Display User Inputs */}
       <div className="flex w-full justify-center mb-8">
-        <div className="relative flex w-[50%] flex-col overflow-hidden rounded-lg border border-gray-100 p-4 sm:p-6 lg:p-8 shadow">
+        <div className="relative flex md:w-[50%] w-full flex-col overflow-hidden rounded-lg border border-gray-100 p-4 sm:p-6 lg:p-8 shadow">
           <h2 className="text-xl font-bold mb-4">Your Selections</h2>
           <div className="grid grid-cols-2">
             {displayUserInput({ formFields, searchParams })}

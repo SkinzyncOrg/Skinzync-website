@@ -68,13 +68,7 @@ export default function Navbar() {
           </li>
           <div className="divider"></div>
           <li>
-            <Link className="text-lg font-bold" href="/product">
-              Best Seller
-            </Link>
-          </li>
-          <div className="divider"></div>
-          <li>
-            <Link className="text-lg font-bold" href="#">
+            <Link className="text-lg font-bold" href="/formulation">
               Formulation
             </Link>
           </li>

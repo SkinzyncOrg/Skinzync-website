@@ -36,7 +36,7 @@ export default function SpecificationForm() {
       {/* Form */}
       <form className="space-y-6">
         {/* Wrapping all categories in a flex container for horizontal layout */}
-        <div className="flex flex-wrap space-x-6">
+        <div className="flex flex-wrap space-y-6 md:space-x-6 md:space-y-0">
           {Object.entries(formSpecifications).map(([category, fields]) => (
             <div key={category} className="w-full md:w-1/2 lg:w-1/3">
               {/* Category Header */}

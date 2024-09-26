@@ -34,8 +34,8 @@ export default function Dynamicpage({ formType, errors }: DynamicpageProps) {
         <div className="hero-overlay bg-white bg-opacity-60"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
-          <h2 className="mb-5 text-center text-4xl text-primary">S K I N C A R E</h2>
-            <h1 className="mb-5 text-center text-6xl text-primary font-bold">
+          <h2 className="mb-5 text-center text-2xl md:text-4xl text-primary">S K I N C A R E</h2>
+            <h1 className="mb-5 text-center text-4xl md:text-6xl text-primary font-bold">
               {upperCaseAll(formType)}
             </h1>
           </div>
