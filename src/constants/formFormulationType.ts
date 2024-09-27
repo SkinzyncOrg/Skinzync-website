@@ -1,5 +1,54 @@
 // constants/formFormulationType.ts
 
+export interface SearchParams {
+  formType: string;
+  dosage_form: string;
+  time_of_used: string;
+  function: string;
+  viscosity: string;
+  appearances: string;
+}
+
+export interface Ingredient {
+  Ingredient: string;
+  "%w/w": number | string; // Some entries have "-"
+  Function: string;
+  Supplier: string;
+}
+
+export interface AdditionalProperties {
+  "absorption time": number;
+  "Advance delivery system": number;
+  "Matte-Finish and Oil control": number;
+  "Long lasting hydration": number;
+  "Spreadability": number;
+  "Ease of formulating": number;
+}
+
+export interface Formula {
+  "Formula number": string | number;
+  pH: number | string; // Some entries have "-"
+  "Viscosity (cps)": number | string; // Some entries have "-"
+  Appearance: string;
+  Ingredients: Ingredient[];
+  "Additional Properties": AdditionalProperties;
+}
+
+export interface FormulationGroup {
+  "Dosage form": string;
+  "Time of use": string;
+  Viscosity: string;
+  Appearance: string;
+  Formulas: Formula[];
+}
+
+export type FormulationData = Record<string, FormulationGroup[]>;
+
+export interface ResultContentProps {
+  searchParams: SearchParams;
+  formType: string;
+}
+
 export type Option = {
   label: string;
   value: string;
@@ -47,8 +96,19 @@ export const viscosityOptionsByDosageForm: { [key: string]: Option[] } = {
     { label: "6000-18000", value: "6000-18000" },
     { label: "18000-25000", value: "18000-25000" },
   ],
-  "Balms": [], // No viscosity options
-  "Mists": [], // No viscosity options
+  Balms: [], // No viscosity options
+  Mists: [], // No viscosity options
+};
+
+export const timeOfUseOptionsByDosageForm: { [key: string]: Option[] } = {
+  "Emulsions/Creams": [
+    { label: "Day", value: "Day" },
+    { label: "Night", value: "Night" },
+  ],
+  "Gels/Serum/Essences/Toner": [
+  ],
+  Balms: [], // No time of use options for Balms
+  Mists: [], // No time of use options for Mists
 };
 
 export const formConfigurations: { [key: string]: FormField[] } = {
@@ -87,19 +147,17 @@ export const formConfigurations: { [key: string]: FormField[] } = {
       optional: false,
     },
     {
-      label: "Time of used",
+      label: "Time of use",
       type: "select",
       name: "time_of_used",
-      options: [
-        { label: "Day", value: "Day" },
-        { label: "Night", value: "Night" },
-      ],
-      optional: false,
+      options: [], // To be dynamically populated
+      optional: true,
     },
     {
       label: "Viscosity",
       type: "select",
       name: "viscosity",
+      options: [], // To be dynamically populated
       optional: false,
     },
     {
@@ -117,8 +175,8 @@ export const formConfigurations: { [key: string]: FormField[] } = {
       type: "select",
       name: "appearances",
       options: [
-        // { label: "Clear/Transparent", value: "Clear/Transparent" },
-        // { label: "Translucent", value: "Translucent" },
+        { label: "Clear/Transparent", value: "Clear/Transparent" },
+        { label: "Translucent", value: "Translucent" },
         { label: "Opaque", value: "Opaque" },
       ],
       optional: false,
@@ -190,15 +248,14 @@ export const formConfigurations: { [key: string]: FormField[] } = {
       label: "Viscosity",
       type: "select",
       name: "viscosity",
+      options: [], // To be dynamically populated
       optional: false,
     },
     {
       label: "pH",
       type: "select",
       name: "ph",
-      options: [
-       
-      ],
+      options: [],
       optional: false,
       disabled: true,
     },
@@ -218,20 +275,12 @@ export const formConfigurations: { [key: string]: FormField[] } = {
       optional: false,
     },
   ],
-  acne_spot: [
-    //disabled
-  ],
-  under_eye: [
-    //disabled
-  ],
-  lip_care: [
-    //disabled
-  ],
-  dark_spot: [
-    //disabled
-  ],
-}
-
+  // Disabled form types
+  acne_spot: [],
+  under_eye: [],
+  lip_care: [],
+  dark_spot: [],
+};
 
 export const formSpecifications: Record<string, FormField[]> = {
   specificFunction: [

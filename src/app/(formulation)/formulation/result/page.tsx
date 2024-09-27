@@ -55,10 +55,10 @@ const ResultPage: React.FC<ResultPageProps> = async ({ searchParams }) => {
   // Filter data based on user input
   const filteredFormulas = functionData.filter((item: any) => {
     return (
-      item["Dosage form"] === dosage_form &&
-      item["Time of use"] === time_of_used &&
-      item["Viscosity"] === viscosity &&
-      item["Appearance"] === appearances
+      (!dosage_form || item["Dosage form"].toLowerCase() === dosage_form.toLowerCase()) &&
+      (!time_of_used || item["Time of use"] === "-" || item["Time of use"] === time_of_used) &&
+      (!viscosity || item["Viscosity"] === "-" || item["Viscosity"] === viscosity) &&
+      (!appearances || item["Appearance"] === "-" || item["Appearance"] === appearances)
     );
   });
 

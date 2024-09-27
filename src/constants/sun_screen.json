@@ -1,0 +1,2142 @@
+{
+  "balm": [
+    {
+      "Dosage form": "balms",
+      "Time of use": "-",
+      "Viscosity": "-",
+      "Formulas": [
+        {
+          "Formula number": 1,
+          "pH": "-",
+          "Viscosity (cps)": "-",
+          "Appearance": "anhydrous bar",
+          "Ingredients": [
+            {
+              "Ingredient": "Hydrogenated vegetable oil (and) Squalane",
+              "%w/w": 35.0,
+              "Function": "emollient",
+              "Supplier": "Uniqema"
+            },
+            {
+              "Ingredient": "Lanolin",
+              "%w/w": 6.0,
+              "Function": "emollient",
+              "Supplier": "emulsifier"
+            },
+            {
+              "Ingredient": "Cera Alba",
+              "%w/w": 6.0,
+              "Function": "emulsifier",
+              "Supplier": "9.6"
+            },
+            {
+              "Ingredient": "Methyl Ricinoleate (and) C10-30 Cholesterol/Lanosterol Esters (and) Oryza Sativa (Rice) Bran Wax (and) Hydrogenated Vegetable Oil (and) Boron Nitride",
+              "%w/w": 4.0,
+              "Function": "emollient",
+              "Supplier": "Inolex"
+            },
+            {
+              "Ingredient": "Hydrogenated Vegetable Oil (and) Ethylene/Propylene Copolymer",
+              "%w/w": 28.0,
+              "Function": "emollient",
+              "Supplier": "gelling agent"
+            },
+            {
+              "Ingredient": "Hydrogenated Vegetable Oil (and) Propylene Carbonate (and) Disteardimonium Hectorite",
+              "%w/w": 20.0,
+              "Function": "emollient",
+              "Supplier": "14.23"
+            },
+            {
+              "Ingredient": "Lavendula Angustifolia (Lavender) Oil Lavendula Angustifolia",
+              "%w/w": 0.1,
+              "Function": "moisturising agent",
+              "Supplier": "Sigma-Aldrich"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 2,
+            "Advance delivery system": 4,
+            "Matte-Finish and Oil control": 2,
+            "Long lasting hydration": 5,
+            "Spreadability": 3,
+            "Ease of formulating": 3
+          }
+        },
+        {
+          "Formula number": 2,
+          "pH": "-",
+          "Viscosity (cps)": "-",
+          "Appearance": "anhydrous stick",
+          "Ingredients": [
+            {
+              "Ingredient": "Myrica cerifera (bayberry) wax",
+              "%w/w": 12.0,
+              "Function": "emollient",
+              "Supplier": "emulsifier"
+            },
+            {
+              "Ingredient": "Helianthus annuus (sunflower) seed wax",
+              "%w/w": 13.0,
+              "Function": "emollient",
+              "Supplier": "Innovacos"
+            },
+            {
+              "Ingredient": "Polyhydroxystearic acid",
+              "%w/w": 15.0,
+              "Function": "emulsifier",
+              "Supplier": "Lubrizol Advanced Material"
+            },
+            {
+              "Ingredient": "Lauryl laurate",
+              "%w/w": 8.0,
+              "Function": "emollient",
+              "Supplier": "Schulk"
+            },
+            {
+              "Ingredient": "Cocos nucifera (coconut) oil",
+              "%w/w": 29.0,
+              "Function": "emollient",
+              "Supplier": "Protameen"
+            },
+            {
+              "Ingredient": "Simmondsia chinensis (jojoba) seed oil",
+              "%w/w": 12.0,
+              "Function": "emollient",
+              "Supplier": "EMD Chenicals"
+            },
+            {
+              "Ingredient": "Oryza sativa (rice bran) oil",
+              "%w/w": 8.0,
+              "Function": "emollient",
+              "Supplier": "SEPPIC"
+            },
+            {
+              "Ingredient": "Calcium carbonate (and) capryloyl lysine",
+              "%w/w": 2.0,
+              "Function": "absorbent",
+              "Supplier": "IMCD"
+            },
+            {
+              "Ingredient": "Tocopheryl acetate",
+              "%w/w": 0.8,
+              "Function": "antioxidant",
+              "Supplier": "stabilizer"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 2,
+            "Advance delivery system": 3,
+            "Matte-Finish and Oil control": 2,
+            "Long lasting hydration": 5,
+            "Spreadability": 3,
+            "Ease of formulating": 3
+          }
+        },
+        {
+          "Formula number": 3,
+          "pH": "-",
+          "Viscosity (cps)": "-",
+          "Appearance": "serum stick",
+          "Ingredients": [
+            {
+              "Ingredient": "Simmondsia Chinensis Seed Oil",
+              "%w/w": 18.0,
+              "Function": "emollient",
+              "Supplier": "Sigma-Aldrich"
+            },
+            {
+              "Ingredient": "Apricot Kernel Oil",
+              "%w/w": 10.0,
+              "Function": "emollient",
+              "Supplier": "CP Kelco"
+            },
+            {
+              "Ingredient": "Cottonseed Oil",
+              "%w/w": 8.0,
+              "Function": "emollient",
+              "Supplier": "Innovacos"
+            },
+            {
+              "Ingredient": "Butyrospermum Parkii Butter",
+              "%w/w": 9.9,
+              "Function": "emollient",
+              "Supplier": "Symrise"
+            },
+            {
+              "Ingredient": "Squalane",
+              "%w/w": 2.0,
+              "Function": "emollient",
+              "Supplier": "Sino Lion"
+            },
+            {
+              "Ingredient": "Glyceryl Stearate",
+              "%w/w": 5.0,
+              "Function": "emulsifier",
+              "Supplier": "HallStar"
+            },
+            {
+              "Ingredient": "Cetearyl Alcohol",
+              "%w/w": 5.0,
+              "Function": "emulsifier",
+              "Supplier": "Botanigenix"
+            },
+            {
+              "Ingredient": "Polyglyceryl-6 Caprylate; Polyglyceryl-3 Cocoate; Polyglyceryl-4 Caprate; Polyglyceryl-6 Ricinoleate",
+              "%w/w": 2.0,
+              "Function": "emulsifier",
+              "Supplier": "1"
+            },
+            {
+              "Ingredient": "Glyceryl Caprylate",
+              "%w/w": 0.5,
+              "Function": "emollient",
+              "Supplier": "Various"
+            },
+            {
+              "Ingredient": "Tocopherol, Helianthus Annuus (Sunflower) Seed Oil",
+              "%w/w": 0.4,
+              "Function": "antioxidant",
+              "Supplier": "33.05"
+            },
+            {
+              "Ingredient": "Decyl Cocoate",
+              "%w/w": 13.0,
+              "Function": "emollient",
+              "Supplier": "Rhodia"
+            },
+            {
+              "Ingredient": "Glycerin",
+              "%w/w": 2.1,
+              "Function": "moisturising agent",
+              "Supplier": "Jungbrunzlauer"
+            },
+            {
+              "Ingredient": "Hydrogenated Palm Oil, Hydrogenated Rapeseed Oil",
+              "%w/w": 5.0,
+              "Function": "emollient",
+              "Supplier": "sophim"
+            },
+            {
+              "Ingredient": "beeswax",
+              "%w/w": 5.0,
+              "Function": "emollient",
+              "Supplier": "Sasol"
+            },
+            {
+              "Ingredient": "Water/Aqua, Ganoderma lucidum extract, Glycerin, Propanediol, Xanthan gum, 1,2-hexanediol, Caprylyl glycol",
+              "%w/w": 1.0,
+              "Function": "moisturising agent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Maltobionic Acid",
+              "%w/w": 0.1,
+              "Function": "moisturising agent",
+              "Supplier": "Granula"
+            },
+            {
+              "Ingredient": "Lactobacillus/Rye Flour Ferment, Sodium Benzoate, Potassium Sorbate",
+              "%w/w": 2.0,
+              "Function": "preservative",
+              "Supplier": "moisturising agent"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 4,
+            "Advance delivery system": 4,
+            "Matte-Finish and Oil control": 3,
+            "Long lasting hydration": 4,
+            "Spreadability": 4,
+            "Ease of formulating": 2
+          }
+        }
+      ]
+    }
+  ],
+  "Emulsion Chemical": [
+    {
+      "Dosage form": "Emulsion Chemical",
+      "Time of use": "-",
+      "Viscosity": "20000-35000",
+      "Formulas": [
+        {
+          "Formula number": 1,
+          "pH": "6-8",
+          "Viscosity (cps)": "28400",
+          "Appearance": "-",
+          "Ingredients": [
+            {
+              "Ingredient": "Cetyl PEG.PPG-10/1 Dimethicone",
+              "%w/w": 2.5,
+              "Function": "Silicone Emulsifier",
+              "Supplier": "Biosil"
+            },
+            {
+              "Ingredient": "Ceresin",
+              "%w/w": 1.5,
+              "Function": "Thickening agent",
+              "Supplier": "Botanigenix"
+            },
+            {
+              "Ingredient": "Octocrylene",
+              "%w/w": 10.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "EMD Chenicals"
+            },
+            {
+              "Ingredient": "Avobensone",
+              "%w/w": 3.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "EMD Chenicals"
+            },
+            {
+              "Ingredient": "Homosalate",
+              "%w/w": 10.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Symrise"
+            },
+            {
+              "Ingredient": "C12-15 Alkyl Benzoate",
+              "%w/w": 6.0,
+              "Function": "Emollient",
+              "Supplier": "Innospec Active Chemicals"
+            },
+            {
+              "Ingredient": "DI water",
+              "%w/w": 60.5,
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Glycerin",
+              "%w/w": 3.0,
+              "Function": "Humectant",
+              "Supplier": "JEEN"
+            },
+            {
+              "Ingredient": "Sodium Chloride",
+              "%w/w": 0.4,
+              "Function": "Thickener",
+              "Supplier": "PCI"
+            },
+            {
+              "Ingredient": "Disodium EDTA",
+              "%w/w": 0.1,
+              "Function": "Chelating agent",
+              "Supplier": "Protameen"
+            },
+            {
+              "Ingredient": "Porphyra Umbilicalis",
+              "%w/w": 3.0,
+              "Function": "Antioxidant",
+              "Supplier": "Biosil"
+            },
+            {
+              "Ingredient": "Methyl Paraben, Ethyl Paraben, N-Butyl Paraben, Propyl paraben, Isobutyl Paraben, Phenoxyethanol",
+              "%w/w": 1.0,
+              "Function": "Preservative",
+              "Supplier": "Clariant"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        },
+        {
+          "Formula number": 2,
+          "pH": "6-7",
+          "Viscosity (cps)": "20000-30000",
+          "Appearance": "-",
+          "Ingredients": [
+            {
+              "Ingredient": "Glycine Soja (Soybean) Oil*, Polyglyceryl-3 Diisostearate, Oryza Sativa (Rice) Germ Extract, Oryza Sativa (Rice) Extract",
+              "%w/w": 1.0,
+              "Function": "Anti-bluelight",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Acrylates/Dimethicone Copolymer",
+              "%w/w": 2.0,
+              "Function": "Emollient",
+              "Supplier": "Protameen"
+            },
+            {
+              "Ingredient": "Ethylhexyl Salicylate [Octisalate]",
+              "%w/w": 5.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Homosalate [Homosalate]",
+              "%w/w": 10.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Ethylhexyl Methoxycrylene",
+              "%w/w": 3.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Butyloctyl Salicylate",
+              "%w/w": 5.0,
+              "Function": "SPF Booster",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Polyester-8",
+              "%w/w": 4.0,
+              "Function": "Film-forming",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Diethylhexyl 2,6-Naphthalate",
+              "%w/w": 6.0,
+              "Function": "Emollient",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Cocos Nucifera (Coconut) Oil, Quercus Suber Bark Extract, Oak Root Extract",
+              "%w/w": 1.0,
+              "Function": "Anti-inflamation",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Butyl Methoxydibenzoylmethane [Avobenzone]",
+              "%w/w": 3.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Clariant"
+            },
+            {
+              "Ingredient": "DI water",
+              "%w/w": 48.95,
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Glycerin",
+              "%w/w": 8.0,
+              "Function": "Humectant",
+              "Supplier": "33.05"
+            },
+            {
+              "Ingredient": "Caprylyl Glycol, Phenoxyethanol, Hexylene Glycol",
+              "%w/w": 1.0,
+              "Function": "Humectant",
+              "Supplier": "%"
+            },
+            {
+              "Ingredient": "Disodium EDTA",
+              "%w/w": 0.05,
+              "Function": "Chelating agent",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Ethylhexyl Olivate, Sodium Acrylates Copolymer, Polyglyceryl-4 Olivate",
+              "%w/w": 2.0,
+              "Function": "Emulsifier",
+              "Supplier": "Ciba"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        },
+        {
+          "Formula number": 3,
+          "pH": "5.5-6.5",
+          "Viscosity (cps)": "22000-25000",
+          "Appearance": "-",
+          "Ingredients": [
+            {
+              "Ingredient": "Cetearyl Alcohol (and) Dicetyl Phosphate (and) Ceteth-10 Phosphate",
+              "%w/w": 4.0,
+              "Function": "Emulsifer",
+              "Supplier": "Croda"
+            },
+            {
+              "Ingredient": "C12-15 Alkyl Benzoate",
+              "%w/w": 2.0,
+              "Function": "Emollient",
+              "Supplier": "Croda"
+            },
+            {
+              "Ingredient": "Dicaprylyl Ether",
+              "%w/w": 3.0,
+              "Function": "Emollient",
+              "Supplier": "Cognis"
+            },
+            {
+              "Ingredient": "Ethoxydiglycol Oleate",
+              "%w/w": 2.0,
+              "Function": "Emollient",
+              "Supplier": "Gatteffos\u00e9"
+            },
+            {
+              "Ingredient": "Stearic Acid",
+              "%w/w": 1.0,
+              "Function": "Emollient",
+              "Supplier": "%"
+            },
+            {
+              "Ingredient": "Octyl Methoxycinnamate",
+              "%w/w": 3.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Ciba"
+            },
+            {
+              "Ingredient": "Sodium Acrylates Copolymer (and) Glycine Soja (and) PPG-1 Trideceth-6",
+              "%w/w": 0.3,
+              "Function": "Gelling agent",
+              "Supplier": "Ciba"
+            },
+            {
+              "Ingredient": "Sqalane",
+              "%w/w": 3.5,
+              "Function": "Emollient",
+              "Supplier": "Uniqema"
+            },
+            {
+              "Ingredient": "DI water",
+              "%w/w": 64.44,
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Propylene Glycol",
+              "%w/w": 2.5,
+              "Function": "Humectant",
+              "Supplier": "5"
+            },
+            {
+              "Ingredient": "Methylen Bisbenzitriazolyl Tetramethylbutylphenol (and) Aqua (and) Propylene Glycol (and) Decyl Glucoside (and) Xanthan Gum",
+              "%w/w": 5.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Ciba"
+            },
+            {
+              "Ingredient": "Diazolidinyl Urea and Iodopropynyl Butylcarbamate",
+              "%w/w": 0.15,
+              "Function": "Humectant",
+              "Supplier": "ISP"
+            },
+            {
+              "Ingredient": "Cyclopentasiloxane Dimethiconol",
+              "%w/w": 2.0,
+              "Function": "Sensory modification",
+              "Supplier": "Dow Corning"
+            },
+            {
+              "Ingredient": "Ethoxydiglycol",
+              "%w/w": 5.0,
+              "Function": "Humectant",
+              "Supplier": "Gattefos\u00e9"
+            },
+            {
+              "Ingredient": "Cyclopentasiloxane (and)Dimethicone/Vinyl-dimethicone Crosspolymer",
+              "%w/w": 2.0,
+              "Function": "Sensory modification",
+              "Supplier": "GE Bayer Silicones"
+            },
+            {
+              "Ingredient": "Sodium Hydroxide",
+              "%w/w": 0.11,
+              "Function": "pH balance",
+              "Supplier": "33.05"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        }
+      ]
+    },
+    {
+      "Dosage form": "Emulsion Chemical",
+      "Time of use": "-",
+      "Viscosity": "8000-20000",
+      "Formulas": [
+        {
+          "Formula number": 1,
+          "pH": "6-8",
+          "Viscosity (cps)": "9000-13000",
+          "Appearance": "Off-white lotion Viscosity",
+          "Ingredients": [
+            {
+              "Ingredient": "Homosalate",
+              "%w/w": 10.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "2.5"
+            },
+            {
+              "Ingredient": "Butyloctyl Salicylate",
+              "%w/w": 4.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Ashland"
+            },
+            {
+              "Ingredient": "Butyl Methoxydibenzoylmethane (Avobenzone)",
+              "%w/w": 3.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "33.05"
+            },
+            {
+              "Ingredient": "Cetearyl Alcohol",
+              "%w/w": 0.35,
+              "Function": "Bodying agent",
+              "Supplier": "2.5"
+            },
+            {
+              "Ingredient": "VP/Eicosene Copolymer",
+              "%w/w": 0.75,
+              "Function": "Flim forming",
+              "Supplier": "Clariant"
+            },
+            {
+              "Ingredient": "Glyceryl Stearate",
+              "%w/w": 1.8,
+              "Function": "Emulsifier",
+              "Supplier": "Gattefos\u00e9"
+            },
+            {
+              "Ingredient": "PEG-100 Stearate",
+              "%w/w": 0.7,
+              "Function": "Emulsifier",
+              "Supplier": "Symrise"
+            },
+            {
+              "Ingredient": "Polysorbate 60",
+              "%w/w": 0.5,
+              "Function": "Emulsifier",
+              "Supplier": "Gatteffos\u00e9"
+            },
+            {
+              "Ingredient": "Ceteareth-6 Olivate",
+              "%w/w": 1.5,
+              "Function": "Emulsifier",
+              "Supplier": "Ashland"
+            },
+            {
+              "Ingredient": " DI water",
+              "%w/w": "qs",
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Butylene Glycol",
+              "%w/w": 3.0,
+              "Function": "Humectant",
+              "Supplier": "Gattefos\u00e9"
+            },
+            {
+              "Ingredient": "Disodium EDTA",
+              "%w/w": 0.05,
+              "Function": "Chelating agent",
+              "Supplier": "EMD Chenicals"
+            },
+            {
+              "Ingredient": "Acrylates Copolymer",
+              "%w/w": 6.0,
+              "Function": "Gelling agent",
+              "Supplier": "Croda"
+            },
+            {
+              "Ingredient": "Xanthan Gum",
+              "%w/w": 0.1,
+              "Function": "Gelling agent",
+              "Supplier": "Interchimie"
+            },
+            {
+              "Ingredient": "Cetearyl Olivate, Sorbitan Olivate",
+              "%w/w": 3.0,
+              "Function": "Emulsifier",
+              "Supplier": "ISP"
+            },
+            {
+              "Ingredient": "DI water",
+              "%w/w": 15.0,
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Triethanolamine",
+              "%w/w": 1.87,
+              "Function": "pH adjuster (base)",
+              "Supplier": "ISP"
+            },
+            {
+              "Ingredient": "Phenylbenzimidazole Sulfonic Acid",
+              "%w/w": 3.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Granula"
+            },
+            {
+              "Ingredient": "Phenoxyethanol",
+              "%w/w": 1.0,
+              "Function": "Preservative",
+              "Supplier": "45.45"
+            },
+            {
+              "Ingredient": "Cyclopentasiloxane, Cyclohexasiloxane",
+              "%w/w": 4.0,
+              "Function": "Texture modification",
+              "Supplier": "Ciba"
+            },
+            {
+              "Ingredient": "Aluminum Starch Octenylsuccinate",
+              "%w/w": 2.5,
+              "Function": "Texture modification",
+              "Supplier": "Ciba"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        },
+        {
+          "Formula number": 2,
+          "pH": "6-7",
+          "Viscosity (cps)": "10000-15000",
+          "Appearance": "-",
+          "Ingredients": [
+            {
+              "Ingredient": "Isononyl Isononanoate (and) Titanium Dioxide (and ) Zinc Oxide (and) Polyglyceryl-4 Isostearate (and) Cetyl PEG/PPG-10/1 Dimethicone (and) Hexyl Laurate (and) Crosslinked Methylmetacrylate(and) Dimethicone (and) Alumina",
+              "%w/w": 34.5,
+              "Function": "Emollient",
+              "Supplier": "Granula"
+            },
+            {
+              "Ingredient": "Cyclopentasiloxane (and) Cyclohexasiloxane",
+              "%w/w": 8.0,
+              "Function": "Emollient",
+              "Supplier": "Dow Corning"
+            },
+            {
+              "Ingredient": "Cyclomethicone (and) Dimethicone Crosspolymer",
+              "%w/w": 4.0,
+              "Function": "Emollient",
+              "Supplier": "Dow Corning"
+            },
+            {
+              "Ingredient": "Dimethicone",
+              "%w/w": 2.0,
+              "Function": "Emollient",
+              "Supplier": "Dow Corning"
+            },
+            {
+              "Ingredient": "Fragrance",
+              "%w/w": 0.3,
+              "Function": "Fragrance",
+              "Supplier": "Vanessence"
+            },
+            {
+              "Ingredient": "DI water",
+              "%w/w": 43.3,
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Sodium Chloride (and) Water",
+              "%w/w": 0.5,
+              "Function": "Thickening agent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Phenoxyethanol (and) Methylparaben (and) Ethylparaben (and) Butylparaben (and) Propylparaben",
+              "%w/w": 0.8,
+              "Function": "Preservative",
+              "Supplier": "IMCD"
+            },
+            {
+              "Ingredient": "Glycerin",
+              "%w/w": 2.0,
+              "Function": "Humectant",
+              "Supplier": "Interchimie"
+            },
+            {
+              "Ingredient": "Betaine (and) Water (and) Glycerin (and) Hydrogenated Lecithin (and) Honey (and) Pectin",
+              "%w/w": 4.0,
+              "Function": "Emulsifier",
+              "Supplier": "Lucas Meyer Cosmetics"
+            },
+            {
+              "Ingredient": "Glycerin (and) Water (and) Dextran (and) Acetyl Hexapeptide-1",
+              "%w/w": 0.5,
+              "Function": "Sunscreening agent",
+              "Supplier": "Lucas Meyer Cosmetics"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        },
+        {
+          "Formula number": 3,
+          "pH": "6-7",
+          "Viscosity (cps)": "11000",
+          "Appearance": "-",
+          "Ingredients": [
+            {
+              "Ingredient": "Butyl Methoxydibenzoylmethane [Avobenzone]",
+              "%w/w": 3.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "2.5"
+            },
+            {
+              "Ingredient": "Glyceryl Stearate SE",
+              "%w/w": 0.6,
+              "Function": "Emulsifier",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Cetearyl Alcohol",
+              "%w/w": 1.0,
+              "Function": "Emollient",
+              "Supplier": "33.05"
+            },
+            {
+              "Ingredient": "Cetearyl Alcohol, PEG-40 Castor Oil, Sodium Cetearyl Sulfate",
+              "%w/w": 1.9,
+              "Function": "Emulsifier",
+              "Supplier": "45.45"
+            },
+            {
+              "Ingredient": "Ceteareth-20",
+              "%w/w": 2.6,
+              "Function": "Emulsifier",
+              "Supplier": "3"
+            },
+            {
+              "Ingredient": "VP/Hexadecene Copolymer",
+              "%w/w": 1.0,
+              "Function": "Flim forming",
+              "Supplier": "PCI"
+            },
+            {
+              "Ingredient": "Hydrogenated Coco-Glycerides",
+              "%w/w": 1.0,
+              "Function": "Emollient",
+              "Supplier": "33.05"
+            },
+            {
+              "Ingredient": "Cyclopentasiloxane",
+              "%w/w": 2.0,
+              "Function": "Emollient",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Dimethicone",
+              "%w/w": 2.0,
+              "Function": "Emollient",
+              "Supplier": "Biosil"
+            },
+            {
+              "Ingredient": "DI water",
+              "%w/w": 77.17,
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Styrene/Acrylates Copolymer",
+              "%w/w": 3.0,
+              "Function": "Opacifiying agent",
+              "Supplier": "9.6"
+            },
+            {
+              "Ingredient": "Tetrasodium EDTA",
+              "%w/w": 0.03,
+              "Function": "Chelating agent",
+              "Supplier": "Ciba"
+            },
+            {
+              "Ingredient": "Xanthan Gum",
+              "%w/w": 0.2,
+              "Function": "Gelling agent",
+              "Supplier": "Gattefos\u00e9"
+            },
+            {
+              "Ingredient": "Glycerin",
+              "%w/w": 4.0,
+              "Function": "Humectant",
+              "Supplier": "Gattefos\u00e9"
+            },
+            {
+              "Ingredient": "Caprylyl Glycol, Phenoxyethanol, Hexylene Glycol",
+              "%w/w": 0.5,
+              "Function": "Preservative",
+              "Supplier": "Clariant"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        }
+      ]
+    },
+    {
+      "Dosage form": "Emulsion Chemical",
+      "Time of use": "-",
+      "Viscosity": "35000-60000",
+      "Formulas": [
+        {
+          "Formula number": 1,
+          "pH": "8-Jun",
+          "Viscosity (cps)": "36270",
+          "Appearance": "-",
+          "Ingredients": [
+            {
+              "Ingredient": "DI water",
+              "%w/w": 77.25,
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Disodium EDTA",
+              "%w/w": 0.1,
+              "Function": "Chelating agent",
+              "Supplier": "Protameen"
+            },
+            {
+              "Ingredient": "Glycerin",
+              "%w/w": 4.0,
+              "Function": "Humectant",
+              "Supplier": "Protameen"
+            },
+            {
+              "Ingredient": "Hydroxyethylcellulose",
+              "%w/w": 0.3,
+              "Function": "Gelling agent",
+              "Supplier": "Ashland"
+            },
+            {
+              "Ingredient": "Propylene Glycol",
+              "%w/w": 3.0,
+              "Function": "Humectant",
+              "Supplier": "%"
+            },
+            {
+              "Ingredient": "Glyceryl Monostrearate",
+              "%w/w": 0.75,
+              "Function": "Emulsifier",
+              "Supplier": "JEEN"
+            },
+            {
+              "Ingredient": "Polyglyceryl-6 Isostearate",
+              "%w/w": 0.4,
+              "Function": "Emulsion stabilizer",
+              "Supplier": "Gattefosse"
+            },
+            {
+              "Ingredient": "PEG-100 Stearate",
+              "%w/w": 0.4,
+              "Function": "Emulsifier",
+              "Supplier": "Protameen"
+            },
+            {
+              "Ingredient": "Cetearyl Alcohol",
+              "%w/w": 0.4,
+              "Function": "Emollient",
+              "Supplier": "Lipo"
+            },
+            {
+              "Ingredient": "Cetyl Alcohol",
+              "%w/w": 0.4,
+              "Function": "Emollient",
+              "Supplier": "Protameen"
+            },
+            {
+              "Ingredient": "Polysorbate 80",
+              "%w/w": 0.4,
+              "Function": "Emulsifier",
+              "Supplier": "Croda"
+            },
+            {
+              "Ingredient": "Cyclopentasiloxane and Cyclohexasiloxane",
+              "%w/w": 2.0,
+              "Function": "Sensory modification",
+              "Supplier": "Dow Corning"
+            },
+            {
+              "Ingredient": "Dimethicone",
+              "%w/w": 2.0,
+              "Function": "Sensory modification",
+              "Supplier": "JEEN"
+            },
+            {
+              "Ingredient": "Pongmia glabra seed oil and Dunaliella salina extract and Haematococcus pluvialis extract",
+              "%w/w": 2.0,
+              "Function": "Anti-infalmation",
+              "Supplier": "Biosil"
+            },
+            {
+              "Ingredient": "Entada Phaseoloides bark/seed extract",
+              "%w/w": 2.5,
+              "Function": "Sunscreening agent",
+              "Supplier": "Biosil"
+            },
+            {
+              "Ingredient": "Linoleic Acid (and) Linolenic Acid (and) Tocopherol",
+              "%w/w": 1.0,
+              "Function": "Anti-oxidant",
+              "Supplier": "Biosil"
+            },
+            {
+              "Ingredient": "Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Isohexadecane, Polysorbate 80",
+              "%w/w": 2.0,
+              "Function": "Thickenig agent",
+              "Supplier": "Seppic"
+            },
+            {
+              "Ingredient": "Phenixyethanol (and) Ethylhexylglycerin",
+              "%w/w": 1.0,
+              "Function": "Preservative",
+              "Supplier": "Schulk"
+            },
+            {
+              "Ingredient": "Fragrance",
+              "%w/w": 0.1,
+              "Function": "Fragrance",
+              "Supplier": "Premier"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        },
+        {
+          "Formula number": 2,
+          "pH": "11-Jun",
+          "Viscosity (cps)": "54000",
+          "Appearance": "light yellow cream",
+          "Ingredients": [
+            {
+              "Ingredient": "DI water",
+              "%w/w": 43.3,
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Disodium EDTA",
+              "%w/w": 0.05,
+              "Function": "Chelating agent",
+              "Supplier": "Protameen"
+            },
+            {
+              "Ingredient": "Xanthan Gum",
+              "%w/w": 0.15,
+              "Function": "Gelling agent",
+              "Supplier": "Evonik"
+            },
+            {
+              "Ingredient": "Glycerin",
+              "%w/w": 3.0,
+              "Function": "Humectant",
+              "Supplier": "Uniqema"
+            },
+            {
+              "Ingredient": "Phenoxyethanol, Methylparaben, Ethylparaben, Butylparaben, Propylparaben, Isobutylparaben",
+              "%w/w": 0.5,
+              "Function": "Preservative",
+              "Supplier": "Croda"
+            },
+            {
+              "Ingredient": "Phenethyl Benzoate",
+              "%w/w": 10.0,
+              "Function": "Emollient",
+              "Supplier": "BASF"
+            },
+            {
+              "Ingredient": "Diisobutyl Adipate",
+              "%w/w": 8.0,
+              "Function": "Emollient",
+              "Supplier": "3"
+            },
+            {
+              "Ingredient": "Ethylhexyl Methoxycinnamate [Octinoxate]",
+              "%w/w": 7.5,
+              "Function": "Sunscreening agent",
+              "Supplier": "Gattefos\u00e9"
+            },
+            {
+              "Ingredient": "Ethylhexyl Methoxycrylene",
+              "%w/w": 3.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Ashland"
+            },
+            {
+              "Ingredient": "Dimethyl Capramide",
+              "%w/w": 2.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Ajinomoto"
+            },
+            {
+              "Ingredient": "Butyl Methoxydibenzoylmethane [Avobenzone]",
+              "%w/w": 3.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "%"
+            },
+            {
+              "Ingredient": "Benzophenone-3 [Oxybenzone]",
+              "%w/w": 6.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Gattefosse"
+            },
+            {
+              "Ingredient": "Glyceryl Stearate, PEG-100 Stearate",
+              "%w/w": 3.0,
+              "Function": "Emulsifier",
+              "Supplier": "Ciba"
+            },
+            {
+              "Ingredient": "Glyceryl Stearate",
+              "%w/w": 0.7,
+              "Function": "Emulsifier",
+              "Supplier": "EMD Chenicals"
+            },
+            {
+              "Ingredient": "VP/Eicosene Copolymer",
+              "%w/w": 1.0,
+              "Function": "Thickening agent",
+              "Supplier": "Premier"
+            },
+            {
+              "Ingredient": "Potassium Cetyl Phosphate, Hydrogenated Palm Glycerides",
+              "%w/w": 2.8,
+              "Function": "Emulsifier",
+              "Supplier": "Ashland"
+            },
+            {
+              "Ingredient": "Styrene/Acrylates Copolymer",
+              "%w/w": 4.0,
+              "Function": "Thickening agent",
+              "Supplier": "Protameen"
+            },
+            {
+              "Ingredient": "Silica",
+              "%w/w": 2.0,
+              "Function": "Absorbing agent",
+              "Supplier": "2.5"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 3,
+            "Ease of formulating": 0
+          }
+        },
+        {
+          "Formula number": 3,
+          "pH": "6",
+          "Viscosity (cps)": "60000-81000",
+          "Appearance": "white thick lotion / soft cream",
+          "Ingredients": [
+            {
+              "Ingredient": "DI water",
+              "%w/w": 46.12,
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Disodium EDTA",
+              "%w/w": 0.2,
+              "Function": "Chelating agent",
+              "Supplier": "JEEN"
+            },
+            {
+              "Ingredient": "Xanthan Gum",
+              "%w/w": 0.2,
+              "Function": "Gelling agent",
+              "Supplier": "Biosil"
+            },
+            {
+              "Ingredient": "Caprylyl Glycol, Phenoxyethanol, Hexylene Glycol",
+              "%w/w": 0.5,
+              "Function": "Preservative",
+              "Supplier": "Protameen"
+            },
+            {
+              "Ingredient": "Glycerin",
+              "%w/w": 2.0,
+              "Function": "Humectant",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Butylene Glycol",
+              "%w/w": 2.0,
+              "Function": "Humectant",
+              "Supplier": "Gattefosse"
+            },
+            {
+              "Ingredient": "Dimethyl Capramide",
+              "%w/w": 1.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "9.6"
+            },
+            {
+              "Ingredient": "Homosalate [Homosalate]",
+              "%w/w": 10.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Evonik"
+            },
+            {
+              "Ingredient": "Ethylhexyl Salicylate [Octisalate]",
+              "%w/w": 5.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Octocrylene [Octocrylene]",
+              "%w/w": 2.75,
+              "Function": "Sunscreening agent",
+              "Supplier": "Premier"
+            },
+            {
+              "Ingredient": "Undecylcrylene Dimethicone",
+              "%w/w": 3.0,
+              "Function": "Solubilizer",
+              "Supplier": "Premier"
+            },
+            {
+              "Ingredient": "Diisobutyl Adipate",
+              "%w/w": 8.0,
+              "Function": "Emollient",
+              "Supplier": "1"
+            },
+            {
+              "Ingredient": "Butyl Methoxydibenzoylmethane [Avobenzone]",
+              "%w/w": 3.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "9.6"
+            },
+            {
+              "Ingredient": "Benzophenone-3 [Oxybenzone]",
+              "%w/w": 6.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "JEEN"
+            },
+            {
+              "Ingredient": "Sorbitan Isostearate",
+              "%w/w": 0.3,
+              "Function": "Emulsifier",
+              "Supplier": "Evonik"
+            },
+            {
+              "Ingredient": "Glyceryl Stearate, PEG-100 Stearate",
+              "%w/w": 2.5,
+              "Function": "Emulsifier",
+              "Supplier": "GE Bayer Silicones"
+            },
+            {
+              "Ingredient": "Potassium Cetyl Phosphate, Hydrogenated Palm Glycerides",
+              "%w/w": 3.0,
+              "Function": "Emulsifier",
+              "Supplier": "JEEN"
+            },
+            {
+              "Ingredient": "VP/Eicosene Copolymer",
+              "%w/w": 1.0,
+              "Function": "Thickening agent",
+              "Supplier": "Hallstar"
+            },
+            {
+              "Ingredient": "Acrylamide/Sodium Acryloyldimethyltaurate Copolymer, Isohexadecane, Polysorbate 80",
+              "%w/w": 1.53,
+              "Function": "Stabilizer",
+              "Supplier": "Biosil"
+            },
+            {
+              "Ingredient": "Silica",
+              "%w/w": 2.0,
+              "Function": "Absorbing agent",
+              "Supplier": "Symrise"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        }
+      ]
+    }
+  ],
+  "Emulsion Hybrid": [
+    {
+      "Dosage form": "Emulsion Hybrid",
+      "Time of use": "-",
+      "Viscosity": "15000-35000",
+      "Formulas": [
+        {
+          "Formula number": 1,
+          "pH": "7-7.5",
+          "Viscosity (cps)": "19480",
+          "Appearance": "-",
+          "Ingredients": [
+            {
+              "Ingredient": "Glyceryl Stearate (and) PEG-100 Stearate",
+              "%w/w": 5.0,
+              "Function": "Emulsifier",
+              "Supplier": "Croda"
+            },
+            {
+              "Ingredient": "Polysorbate-60",
+              "%w/w": 0.9,
+              "Function": "Emulsifier",
+              "Supplier": "Croda"
+            },
+            {
+              "Ingredient": "Sorbitan Stearate",
+              "%w/w": 0.5,
+              "Function": "Emulsifier",
+              "Supplier": "Croda"
+            },
+            {
+              "Ingredient": "Stearyl Alcohol",
+              "%w/w": 1.0,
+              "Function": "Emollient",
+              "Supplier": "BASF"
+            },
+            {
+              "Ingredient": "Ethylhexyl Benzoate",
+              "%w/w": 8.0,
+              "Function": "Solubilizer",
+              "Supplier": "Innospec"
+            },
+            {
+              "Ingredient": "Polyester-7 (and) Neopentyl Glycol Diheptanoate",
+              "%w/w": 5.0,
+              "Function": "Film forming",
+              "Supplier": "Inolex"
+            },
+            {
+              "Ingredient": "Diisopropyl Adipate",
+              "%w/w": 5.0,
+              "Function": "Emollient",
+              "Supplier": "Croda"
+            },
+            {
+              "Ingredient": "Ethyl Hexyl Methoxycinnamate",
+              "%w/w": 2.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Vivimed"
+            },
+            {
+              "Ingredient": "Butyl Methoxydibenzoylmethane",
+              "%w/w": 2.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Vivimed"
+            },
+            {
+              "Ingredient": "Disodium EDTA",
+              "%w/w": 0.1,
+              "Function": "Chelating agent",
+              "Supplier": "Merck"
+            },
+            {
+              "Ingredient": "Bis-ethylhexyl Hydroxydimethoxy Benzylmalonate",
+              "%w/w": 1.0,
+              "Function": "Antioxidant",
+              "Supplier": "Merck"
+            },
+            {
+              "Ingredient": "DI water",
+              "%w/w": 43.0,
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Propylene Glycol",
+              "%w/w": 4.0,
+              "Function": "Humectant",
+              "Supplier": "Various"
+            },
+            {
+              "Ingredient": "Magnesium Aluminium Silicate",
+              "%w/w": 0.8,
+              "Function": "Absorbing agent",
+              "Supplier": "Vanderbilt"
+            },
+            {
+              "Ingredient": "Xanthan Gum",
+              "%w/w": 2.0,
+              "Function": "Gelling agent",
+              "Supplier": "CP Kelco"
+            },
+            {
+              "Ingredient": "Titanium Dioxide (and) Aqua (and) Polyglyceryl-2 Caprate (and) Sucrose Stearate (and) Simmondsia Chinensis (Jojoba) Seed Oil (and) Stearic Acid (and) Alumina (and) Glyceryl Caprylate (and) Squalane",
+              "%w/w": 8.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Croda"
+            },
+            {
+              "Ingredient": "DI water",
+              "%w/w": 10.0,
+              "Function": "Solubilizer",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Benzophenone-4",
+              "%w/w": 2.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Vivimed"
+            },
+            {
+              "Ingredient": "Triethanolamine",
+              "%w/w": 1.0,
+              "Function": "pH adjuster",
+              "Supplier": "Various"
+            },
+            {
+              "Ingredient": "Phenoxyethanol (and) Methylparaben (and) Propylparaben (and) 2-Bromo-2-Nitropropane-1,3-Dio",
+              "%w/w": 0.5,
+              "Function": "Preservative",
+              "Supplier": "Clariant"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        },
+        {
+          "Formula number": 2,
+          "pH": "6-7",
+          "Viscosity (cps)": "21880",
+          "Appearance": "-",
+          "Ingredients": [
+            {
+              "Ingredient": "PPG-3 Benzyl Ether Ethylhexanoate",
+              "%w/w": 9.0,
+              "Function": "Emollient",
+              "Supplier": "1"
+            },
+            {
+              "Ingredient": "Glyceryl Stearate (and) PEG-100 Stearate",
+              "%w/w": 2.0,
+              "Function": "Emulsifier",
+              "Supplier": "Clariant"
+            },
+            {
+              "Ingredient": "Sorbitan Stearate",
+              "%w/w": 1.0,
+              "Function": "Emulsifier",
+              "Supplier": "Merk"
+            },
+            {
+              "Ingredient": "Octocrylene",
+              "%w/w": 4.5,
+              "Function": "Sunscreening agent",
+              "Supplier": "Biosil"
+            },
+            {
+              "Ingredient": "Ethylhexyl Salicylate",
+              "%w/w": 2.5,
+              "Function": "Sunscreening agent",
+              "Supplier": "Premier"
+            },
+            {
+              "Ingredient": "Butyl Methoxydibenzoylmethane",
+              "%w/w": 2.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Gattefos\u00e9"
+            },
+            {
+              "Ingredient": "Cyclopentasiloxane",
+              "%w/w": 1.0,
+              "Function": "Sensory mdification",
+              "Supplier": "Interchimie"
+            },
+            {
+              "Ingredient": "Disodium EDTA",
+              "%w/w": 0.02,
+              "Function": "Chelating agent",
+              "Supplier": "Seppic GmbH "
+            },
+            {
+              "Ingredient": "DI water",
+              "%w/w": 55.58,
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Glycerin",
+              "%w/w": 3.0,
+              "Function": "Humectant",
+              "Supplier": "ISP"
+            },
+            {
+              "Ingredient": "Potassium Cetyl Phosphate",
+              "%w/w": 3.0,
+              "Function": "Emulsifier",
+              "Supplier": "JEEN"
+            },
+            {
+              "Ingredient": "Magnesium Aluminium Silicate",
+              "%w/w": 0.4,
+              "Function": "Absorbing agent",
+              "Supplier": "Merk"
+            },
+            {
+              "Ingredient": "Xanthan Gum",
+              "%w/w": 0.1,
+              "Function": "Gelling agent",
+              "Supplier": "Gattefosse"
+            },
+            {
+              "Ingredient": "Aqua (and) Titanium Dioxide (and) Oleth10 (and) Isodeceth-6 (and) Aluminium Stearate (and) Alumina (and) Simethicone (and) Phenoxyethanol",
+              "%w/w": 11.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Dow Corning"
+            },
+            {
+              "Ingredient": "Aqua (and) Hydrolyzed Wheat Protein/PVP Crosspolymer",
+              "%w/w": 2.0,
+              "Function": "Film-forming",
+              "Supplier": "JEEN"
+            },
+            {
+              "Ingredient": "Sodium Polyacrylate (and) Ethylhexyl Cocoate (and) PPG-3 Benzyl Ether Myristate (and) Polysorbate 20",
+              "%w/w": 1.3,
+              "Function": "Emulsifier",
+              "Supplier": "Merck"
+            },
+            {
+              "Ingredient": "Phenoxyethanol (and) Ethylhexylglycerin",
+              "%w/w": 1.0,
+              "Function": "Preservative",
+              "Supplier": "Interchimie"
+            },
+            {
+              "Ingredient": "Parfum",
+              "%w/w": 0.5,
+              "Function": "Fragrance",
+              "Supplier": "%"
+            },
+            {
+              "Ingredient": "Methylisothiazolinone (and) Ethylhexlglycerin (and) Water",
+              "%w/w": 0.1,
+              "Function": "Preservative",
+              "Supplier": "-"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        },
+        {
+          "Formula number": 3,
+          "pH": "7-7.5",
+          "Viscosity (cps)": "15000-20000",
+          "Appearance": "White lotion",
+          "Ingredients": [
+            {
+              "Ingredient": "BIS-ETHYLHEXYL HYDROXYDIMETHOXY BENZYLMALONATE",
+              "%w/w": 2.0,
+              "Function": "Antioxidant",
+              "Supplier": "Merck KGaA, Darmstadt, Germany / EMD Chemicals"
+            },
+            {
+              "Ingredient": "DIPROPYLENE GLYCOL DIBENZOATE, PPG-15 STEARYL ETHER BENZOATE, C12-15 ALKYL BENZOATE",
+              "%w/w": 4.0,
+              "Function": "Emollinet",
+              "Supplier": "Innospec"
+            },
+            {
+              "Ingredient": "DIMETHICONE",
+              "%w/w": 2.0,
+              "Function": "Emollient",
+              "Supplier": "Dow Corning"
+            },
+            {
+              "Ingredient": "DIMETHICONE, TRIMETHYLSILOXYSILICATE",
+              "%w/w": 1.0,
+              "Function": "Emollient",
+              "Supplier": "Dow Corning"
+            },
+            {
+              "Ingredient": "OCTOCRYLENE",
+              "%w/w": 10.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Merck KGaA, Darmstadt, Germany / EMD Chemicals"
+            },
+            {
+              "Ingredient": "BENZOPHENONE-3",
+              "%w/w": 1.5,
+              "Function": "Sunscreening agent",
+              "Supplier": "Merck KGaA, Darmstadt, Germany / EMD Chemicals"
+            },
+            {
+              "Ingredient": "BUTYL METHOXYDIBENZOYLMETHANE",
+              "%w/w": 2.5,
+              "Function": "Sunscreening agent",
+              "Supplier": "Merck KGaA, Darmstadt, Germany / EMD Chemicals"
+            },
+            {
+              "Ingredient": "TITANIUM DIOXIDE, SILICA",
+              "%w/w": 3.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Merck KGaA, Darmstadt, Germany / EMD Chemicals"
+            },
+            {
+              "Ingredient": "PVP/HEXADECENE COPOLYMER",
+              "%w/w": 0.6,
+              "Function": "Film-forming",
+              "Supplier": "ISP Global Technologies"
+            },
+            {
+              "Ingredient": "DICAPRYLYL CARBONATE",
+              "%w/w": 2.0,
+              "Function": "Emollient",
+              "Supplier": "DSM Nutritional Products GmbH"
+            },
+            {
+              "Ingredient": "POTASSIUM CETYL PHOSPHATE",
+              "%w/w": 2.5,
+              "Function": "Emulsifier",
+              "Supplier": "DSM Nutritional Products GmbH"
+            },
+            {
+              "Ingredient": "STEARETH-2",
+              "%w/w": 0.3,
+              "Function": "Emulsifier",
+              "Supplier": "Croda GmbH"
+            },
+            {
+              "Ingredient": "STEARETH-21",
+              "%w/w": 0.6,
+              "Function": "Emulsifier",
+              "Supplier": "Croda GmbH"
+            },
+            {
+              "Ingredient": "BISABOLOL",
+              "%w/w": 0.2,
+              "Function": "Anti-inflmation",
+              "Supplier": "Merck KGaA, Darmstadt, Germany / EMD Chemicals"
+            },
+            {
+              "Ingredient": "SYNTHETIC FLUORPHLOGOPITE, SILICA",
+              "%w/w": 2.0,
+              "Function": "Thickening agent",
+              "Supplier": "Merck KGaA, Darmstadt, Germany / EMD Chemicals"
+            },
+            {
+              "Ingredient": "CI 77891, MICA, SILICA, ALUMINA",
+              "%w/w": 1.0,
+              "Function": "Coloration",
+              "Supplier": "Merck KGaA, Darmstadt, Germany / EMD Chemicals"
+            },
+            {
+              "Ingredient": "DI water",
+              "%w/w": 5.0,
+              "Function": "Solubilizer",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "PHENYLBENZIMIDAZOLE SULFONIC ACID",
+              "%w/w": 2.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Merck KGaA, Darmstadt, Germany / EMD Chemicals"
+            },
+            {
+              "Ingredient": "TROMETHAMINE",
+              "%w/w": 0.16,
+              "Function": "pH adjuster",
+              "Supplier": "Merck KGaA, Darmstadt, Germany / EMD Chemicals"
+            },
+            {
+              "Ingredient": "DI water",
+              "%w/w": 39.61,
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "ECTOIN",
+              "%w/w": 0.5,
+              "Function": "Anti-oxidant",
+              "Supplier": "Merck KGaA, Darmstadt, Germany / EMD Chemicals"
+            },
+            {
+              "Ingredient": "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+              "%w/w": 0.23,
+              "Function": "Thickening agent",
+              "Supplier": "Lubrizol"
+            },
+            {
+              "Ingredient": "BUTYLENE GLYCOL",
+              "%w/w": 4.0,
+              "Function": "Wetting agent",
+              "Supplier": "Merck KGaA, Darmstadt, Germany / EMD Chemicals"
+            },
+            {
+              "Ingredient": "EDTA DISODIUM SALT",
+              "%w/w": 0.1,
+              "Function": "Chelating agent",
+              "Supplier": "Premier"
+            },
+            {
+              "Ingredient": "TRIETHANOLAMINE",
+              "%w/w": 0.3,
+              "Function": "pH adjuster",
+              "Supplier": "Granula"
+            },
+            {
+              "Ingredient": "DIMETHICONE, DIMETHICONE CROSSPOLYMER",
+              "%w/w": 3.0,
+              "Function": "Emollient",
+              "Supplier": "Dow Corning"
+            },
+            {
+              "Ingredient": "CYCLOPENTASILOXANE, CYCLOHEXASILOXANE",
+              "%w/w": 3.0,
+              "Function": "Emollient",
+              "Supplier": "Dow Corning"
+            },
+            {
+              "Ingredient": "SODIUM ACRYLATE, SODIUM ACRYLATES/ACROLEIN COPOLYMER, ISOHEXADECANE, POLYSORBATE 80",
+              "%w/w": 0.5,
+              "Function": "Thickening agent",
+              "Supplier": "Seppic GmbH "
+            },
+            {
+              "Ingredient": "TRIETHANOLAMINE",
+              "%w/w": 0.4,
+              "Function": "pH adjuster",
+              "Supplier": "Gattefos\u00e9"
+            },
+            {
+              "Ingredient": "AQUA, ETHYLHEXYL METHOXYCINNAMATE, SILICA, PVP, PHENOXYETHANOL, METHYLPARABEN, PROPYLPARABEN, BHT",
+              "%w/w": 6.0,
+              "Function": "Preservative",
+              "Supplier": "Merck KGaA, Darmstadt, Germany / EMD Chemicals"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        }
+      ]
+    },
+    {
+      "Dosage form": "Emulsion Hybrid",
+      "Time of use": "-",
+      "Viscosity": "35000-50000",
+      "Formulas": [
+        {
+          "Formula number": 1,
+          "pH": "-",
+          "Viscosity (cps)": "50000",
+          "Appearance": "6.5-7.5",
+          "Ingredients": [
+            {
+              "Ingredient": "DI water",
+              "%w/w": 42.46,
+              "Function": "Dilluent",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Disodium EDTA",
+              "%w/w": 0.05,
+              "Function": "Chelating agent",
+              "Supplier": "Dow Chemical"
+            },
+            {
+              "Ingredient": "Xanthan Gum",
+              "%w/w": 0.2,
+              "Function": "Gelling agent",
+              "Supplier": "Rhodia"
+            },
+            {
+              "Ingredient": "Caprylhydroxamic Acid, Phenoxyethanol, Methylpropanediol",
+              "%w/w": 1.0,
+              "Function": "Preservative",
+              "Supplier": "Inolex"
+            },
+            {
+              "Ingredient": "Glycerin",
+              "%w/w": 4.0,
+              "Function": "Humectant",
+              "Supplier": "P&G Chemicals"
+            },
+            {
+              "Ingredient": "Butylene Glycol Dicaprylate/Dicaprate",
+              "%w/w": 10.0,
+              "Function": "Emollient",
+              "Supplier": "Sasol"
+            },
+            {
+              "Ingredient": "Ethylhexyl Methoxycrylene",
+              "%w/w": 4.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "HallStar"
+            },
+            {
+              "Ingredient": "Ethylhexyl Methoxycinnamate [Octinoxate]",
+              "%w/w": 7.5,
+              "Function": "Sunscreening agent",
+              "Supplier": "ISP"
+            },
+            {
+              "Ingredient": "Octocrylene [Octocrylene]",
+              "%w/w": 2.79,
+              "Function": "Sunscreening agent",
+              "Supplier": "Symrise"
+            },
+            {
+              "Ingredient": "Butyl Methoxydibenzoylmethane [Avobenzone]",
+              "%w/w": 3.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "DSM Nutritional"
+            },
+            {
+              "Ingredient": "Benzophenone-3 [Oxybenzone]",
+              "%w/w": 6.0,
+              "Function": "Sunscreening agent",
+              "Supplier": "Symrise"
+            },
+            {
+              "Ingredient": "Glyceryl Stearate, PEG-100 Stearate",
+              "%w/w": 4.0,
+              "Function": "Emulsifier",
+              "Supplier": "HallStar"
+            },
+            {
+              "Ingredient": "Potassium Cetyl Phosphate, Hydrogenated Palm Glycerides",
+              "%w/w": 2.0,
+              "Function": "Emulsifier",
+              "Supplier": "Symrise"
+            },
+            {
+              "Ingredient": "Glyceryl Stearate",
+              "%w/w": 3.0,
+              "Function": "-",
+              "Supplier": "HallStar"
+            },
+            {
+              "Ingredient": "VP/Eicosene Copolymer",
+              "%w/w": 2.0,
+              "Function": "-",
+              "Supplier": "ISP"
+            },
+            {
+              "Ingredient": "Titanium Dioxide, Triethoxycaprylylsilane",
+              "%w/w": 0.5,
+              "Function": "-",
+              "Supplier": "Color Techniques"
+            },
+            {
+              "Ingredient": "Styrene/Acrylates Copolymer",
+              "%w/w": 4.0,
+              "Function": "-",
+              "Supplier": "Dow Chemical"
+            },
+            {
+              "Ingredient": "Tocopheryl Acetate",
+              "%w/w": 0.2,
+              "Function": "-",
+              "Supplier": "Rita"
+            },
+            {
+              "Ingredient": "Dimethicone",
+              "%w/w": 4.0,
+              "Function": "-",
+              "Supplier": "Dow Corning"
+            },
+            {
+              "Ingredient": "Silica",
+              "%w/w": 2.0,
+              "Function": "-",
+              "Supplier": "Kobo Products"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        },
+        {
+          "Formula number": 2,
+          "pH": "-",
+          "Viscosity (cps)": "42000-47000",
+          "Appearance": "5.5-6.0",
+          "Ingredients": [
+            {
+              "Ingredient": "6.3",
+              "%w/w": "Polyglyceryl-4 Diisostearate/Polyhydroxystearate/ Sebacate; Caprylic/Capric Triglyceride; Polyglyceryl-3 Oleate; Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate",
+              "Function": "-",
+              "Supplier": "emulsifier"
+            },
+            {
+              "Ingredient": "0.5",
+              "%w/w": "Microcrystalline Wax",
+              "Function": "-",
+              "Supplier": "thickening agent"
+            },
+            {
+              "Ingredient": "5",
+              "%w/w": "Hydrogenated Castor Oil",
+              "Function": "-",
+              "Supplier": "emollient"
+            },
+            {
+              "Ingredient": "10",
+              "%w/w": "Diethylhexyl Carbonate",
+              "Function": "-",
+              "Supplier": "emollient"
+            },
+            {
+              "Ingredient": "6",
+              "%w/w": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+              "Function": "-",
+              "Supplier": "UV filter"
+            },
+            {
+              "Ingredient": "7",
+              "%w/w": "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+              "Function": "-",
+              "Supplier": "UV filter"
+            },
+            {
+              "Ingredient": "5",
+              "%w/w": "Ethylhexyl Salicylate",
+              "Function": "-",
+              "Supplier": "UV filter"
+            },
+            {
+              "Ingredient": "8",
+              "%w/w": "Ethylhexyl Methoxycinnamate",
+              "Function": "-",
+              "Supplier": "UV filter"
+            },
+            {
+              "Ingredient": "6",
+              "%w/w": "Titanium Dioxide (and) Silica (and) Dimethicone",
+              "Function": "-",
+              "Supplier": "UV filter"
+            },
+            {
+              "Ingredient": "1",
+              "%w/w": "Benzyl Alcohol, Caprylyl Glycol, Benzoic Acid",
+              "Function": "-",
+              "Supplier": "preservative"
+            },
+            {
+              "Ingredient": "49.9",
+              "%w/w": "DI water",
+              "Function": "-",
+              "Supplier": "diluent"
+            },
+            {
+              "Ingredient": "3",
+              "%w/w": "glycerin",
+              "Function": "-",
+              "Supplier": "moisturising agent"
+            },
+            {
+              "Ingredient": "1",
+              "%w/w": "Zinc Sulfate Heptahydrate",
+              "Function": "-",
+              "Supplier": "astringent"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        },
+        {
+          "Formula number": 3,
+          "pH": "-",
+          "Viscosity (cps)": "40000-50000",
+          "Appearance": "5.5-6.5",
+          "Ingredients": [
+            {
+              "Ingredient": "54.45",
+              "%w/w": "DI water",
+              "Function": "-",
+              "Supplier": "diluent"
+            },
+            {
+              "Ingredient": "0.25",
+              "%w/w": "Allantoin",
+              "Function": "-",
+              "Supplier": "moisturising agent"
+            },
+            {
+              "Ingredient": "3",
+              "%w/w": "glycerin",
+              "Function": "-",
+              "Supplier": "moisturising agent"
+            },
+            {
+              "Ingredient": "1",
+              "%w/w": "Caprylyl Glycol, Glycerin, Glyceryl Caprylate, Phenylpropanol",
+              "Function": "-",
+              "Supplier": "moisturising agent"
+            },
+            {
+              "Ingredient": "6",
+              "%w/w": "Glyceryl Stearate Citrate, Cetearyl Alcohol, Glyceryl Caprylate",
+              "Function": "-",
+              "Supplier": "emulsifier"
+            },
+            {
+              "Ingredient": "12",
+              "%w/w": "Isoamyl Laurate",
+              "Function": "-",
+              "Supplier": "emollient"
+            },
+            {
+              "Ingredient": "5",
+              "%w/w": "Ethylhexyl Salicylate",
+              "Function": "-",
+              "Supplier": "UV filter"
+            },
+            {
+              "Ingredient": "4",
+              "%w/w": "Butyl Methoxydibenzoylmethane",
+              "Function": "-",
+              "Supplier": "UV filter"
+            },
+            {
+              "Ingredient": "10",
+              "%w/w": "Octocrylene",
+              "Function": "-",
+              "Supplier": "UV filter"
+            },
+            {
+              "Ingredient": "1",
+              "%w/w": "Ethylhexyl Triazone",
+              "Function": "-",
+              "Supplier": "UV filter"
+            },
+            {
+              "Ingredient": "0.3",
+              "%w/w": "Dimethicone",
+              "Function": "-",
+              "Supplier": "sensory modifier"
+            },
+            {
+              "Ingredient": "0.3",
+              "%w/w": "Xanthan Gum",
+              "Function": "-",
+              "Supplier": "gelling agent"
+            },
+            {
+              "Ingredient": "0.7",
+              "%w/w": "Magnesium Aluminum Silicate",
+              "Function": "-",
+              "Supplier": "stabilizer"
+            },
+            {
+              "Ingredient": "2",
+              "%w/w": "Titanium Dioxide (and) Silica",
+              "Function": "-",
+              "Supplier": "UV filter"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        },
+        {
+          "Formula number": 1,
+          "pH": "-",
+          "Viscosity (cps)": "20000",
+          "Appearance": "6-8",
+          "Ingredients": [
+            {
+              "Ingredient": "Water",
+              "%w/w": "DI water",
+              "Function": "62.6",
+              "Supplier": "-"
+            },
+            {
+              "Ingredient": "Oil",
+              "%w/w": "GlycerylMoonotanate",
+              "Function": "0.6",
+              "Supplier": "Ajinomoto"
+            }
+          ],
+          "Additional Properties": {
+            "absorption time": 0,
+            "Advance delivery system": 0,
+            "Matte-Finish and Oil control": 0,
+            "Long lasting hydration": 0,
+            "Spreadability": 4,
+            "Ease of formulating": 0
+          }
+        }
+      ]
+    }
+  ]
+}
