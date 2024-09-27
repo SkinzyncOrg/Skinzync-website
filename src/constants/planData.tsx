@@ -22,7 +22,7 @@ const getSkinZyncPro = (): PlanData => {
     submitButtonLabel: "Buy Now",
     features: ["1 month / 20 formulas"],
     svgIcon: (
-      <IoPersonSharp className="w-10 h-10" />
+      <IoPersonSharp size={40}/>
 
     ),
   };
@@ -38,7 +38,7 @@ const getSkinZyncPremium = (): PlanData => {
     submitButtonLabel: "Buy Now",
     features: ["1 month / 100 formulas"],
     svgIcon: (
-      <MdFactory className="w-10 h-10" />
+      <MdFactory size={40}/>
 
     ),
   };
@@ -54,7 +54,7 @@ const getSkinZyncSupply = (): PlanData => {
     submitButtonLabel: "Contact Sales",
     features: ["1 month / 100 formulas"],
     svgIcon: (
-      <IoCall className="w-10 h-10" />
+      <IoCall size={40}/>
 
     ),
   };

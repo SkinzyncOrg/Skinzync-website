@@ -33,7 +33,7 @@ export default function PricingCard({
             <p className="text-sm font-bold text-gray-500">{yearlyPrice}</p>
           </div>
           <div className="flex items-center justify-center w-24 h-24 rounded-full bg-gray-100">
-            {svgIcon}
+          {React.cloneElement(svgIcon, { width: "100%", height: "100%" })}
           </div>
         </div>
         <div>
